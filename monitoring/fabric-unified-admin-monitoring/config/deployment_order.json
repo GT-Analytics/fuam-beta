@@ -136,10 +136,6 @@
         "fuam_id": "38e5dae7-b770-535e-85a3-512d20d8c556"
     },
     {
-        "name": "04_Transfer_CapacityMetricData_Calendar_Timepoints_Unit.Notebook",
-        "fuam_id": "9f0f860f-ad6b-58c1-bd8f-3ebc2cf74bf3"
-    },
-    {
         "name": "Load_Capacity_Metrics_E2E.DataPipeline",
         "fuam_id": "20918174-b1be-5c2c-9d6a-c0813660137a"
     },
@@ -148,20 +144,20 @@
         "fuam_id": "7e182286-079c-5370-bdb1-c34567fff85f"
     },
     {
-        "name": "FUAM_Core_SM.SemanticModel",
-        "fuam_id": "2d2f2490-9f07-5eb0-acbb-6eea72a03527"
-    },
-    {
-        "name": "FUAM_Core_Report.Report",
-        "fuam_id": "0c1d8145-fa2c-55d1-91a3-a30aa115d1a7"
-    },
-    {
         "name": "FUAM_Item_SM.SemanticModel",
         "fuam_id": "896543f5-c24f-5e3e-89a7-b3bd3fcf498e"
     },
     {
         "name": "FUAM_Item_Analyzer_Report.Report",
         "fuam_id": "84b6a5b7-4150-5a30-b2d3-07ffdca8f818"
+    },
+    {
+        "name": "FUAM_Core_SM.SemanticModel",
+        "fuam_id": "2d2f2490-9f07-5eb0-acbb-6eea72a03527"
+    },
+    {
+        "name": "FUAM_Core_Report.Report",
+        "fuam_id": "0c1d8145-fa2c-55d1-91a3-a30aa115d1a7"
     },
     {
         "name": "FUAM_Semantic_Model_Meta_Data_Analyzer_SM.SemanticModel",
