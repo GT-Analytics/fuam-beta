@@ -152,29 +152,6 @@
                         }
                     }
                 }
-            },
-            {
-                "name": "04_Transfer_CapacityMetricData_Calendar_Timepoints_Unit",
-                "type": "TridentNotebook",
-                "dependsOn": [
-                    {
-                        "activity": "03_Transfer_CapacityMetricData_Unit",
-                        "dependencyConditions": [
-                            "Succeeded"
-                        ]
-                    }
-                ],
-                "policy": {
-                    "timeout": "0.12:00:00",
-                    "retry": 0,
-                    "retryIntervalInSeconds": 30,
-                    "secureOutput": false,
-                    "secureInput": false
-                },
-                "typeProperties": {
-                    "notebookId": "9f0f860f-ad6b-58c1-bd8f-3ebc2cf74bf3",
-                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657"
-                }
             }
         ],
         "parameters": {
