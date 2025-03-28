@@ -1926,19 +1926,8 @@ table Metrics
 			
 			// Get Analyzer report workspaceId and ReportId from FUAM Workspace
 			// For specific semantic model workloads
-			VAR _workspace_id = 
-			    CALCULATE(
-			        LOWER(MAX(reports[WorkspaceId])),
-			        reports[Name] = "FUAM_Item_Analyzer_Report",
-			        REMOVEFILTERS(semantic_models[Name])
-			
-			    )
-			VAR _reportId = 
-			    CALCULATE(
-			        LOWER(MAX(reports[ReportId])),
-			        reports[Name] = "FUAM_Item_Analyzer_Report",
-			        REMOVEFILTERS(semantic_models[Name])
-			    )
+			VAR _workspace_id = "eb764c8b-cf3b-55be-adf4-348fe9233657"
+			VAR _reportId = "84b6a5b7-4150-5a30-b2d3-07ffdca8f818"
 			
 			RETURN
 			IF(
@@ -1947,7 +1936,7 @@ table Metrics
 			    _workspace_id &
 			    "/reports/" &
 			    _reportId &
-			    "?experience=power-bi&filter=semantic_models%2FSemanticModelId%20eq%20%27" &
+			    "/a8201acb6b6000ff7f60?experience=power-bi&filter=semantic_models%2FSemanticModelId%20eq%20%27" &
 			    MIN(semantic_models[SemanticModelId]) & 
 			    "%27",
 			    BLANK()
@@ -2134,19 +2123,8 @@ table Metrics
 			
 			// Get Analyzer report workspaceId and ReportId from FUAM Workspace
 			// For every workload
-			VAR _workspace_id = 
-			    CALCULATE(
-			        LOWER(MAX(reports[WorkspaceId])),
-			        reports[Name] = "FUAM_Item_Analyzer_Report",
-			        REMOVEFILTERS(semantic_models[Name])
-			
-			    )
-			VAR _reportId = 
-			    CALCULATE(
-			        LOWER(MAX(reports[ReportId])),
-			        reports[Name] = "FUAM_Item_Analyzer_Report",
-			        REMOVEFILTERS(semantic_models[Name])
-			    )
+			VAR _workspace_id = "eb764c8b-cf3b-55be-adf4-348fe9233657"
+			VAR _reportId = "84b6a5b7-4150-5a30-b2d3-07ffdca8f818"
 			
 			// Put URL link together for selected item
 			RETURN
