@@ -264,14 +264,18 @@ table Metrics
 		lineageTag: ae3e3e9d-be59-4bcb-8357-7cddece6ba6b
 
 	measure 'Total CUs IOD' = SUM(capacity_metrics_by_item_by_operation_by_day[TotalCUs])
-		formatString: #,0.00
+		formatString: #,0
 		displayFolder: Capacity IOD Metrics\General
 		lineageTag: df24a49c-6fc7-4a9b-afd4-1379f73d8711
 
+		annotation PBI_FormatHint = {"isDecimal":true}
+
 	measure 'Total Duration (s) IOD' = SUM(capacity_metrics_by_item_by_operation_by_day[DurationInSec])
-		formatString: #,0.00
+		formatString: #,0
 		displayFolder: Capacity IOD Metrics\General
 		lineageTag: be564493-0f81-4490-a19d-4ad9e5b67c31
+
+		annotation PBI_FormatHint = {"isDecimal":true}
 
 	measure 'Users IOD' = SUM(capacity_metrics_by_item_by_operation_by_day[UserCount])
 		formatString: #,0
@@ -809,9 +813,11 @@ table Metrics
 			    [Avg CU by Item by Day IOD],
 			    'calendar'[IsInLast14Days] = 1
 			)
-		formatString: #,0.00
+		formatString: #,0
 		displayFolder: Capacity IOD Metrics\Time Intelligence
 		lineageTag: 410ddc5a-5777-4d11-aa07-e3776239db31
+
+		annotation PBI_FormatHint = {"isDecimal":true}
 
 	measure 'Avg CU by Item by Day 30d IOD' =
 			
@@ -819,9 +825,11 @@ table Metrics
 			    [Avg CU by Item by Day IOD],
 			    'calendar'[IsInLast30Days] = 1
 			)
-		formatString: #,0.00
+		formatString: #,0
 		displayFolder: Capacity IOD Metrics\Time Intelligence
 		lineageTag: cb711b04-4c6e-4cc2-8a7a-c8a361dcf7c2
+
+		annotation PBI_FormatHint = {"isDecimal":true}
 
 	measure 'Max CU by Item by Day 30d IOD' =
 			
@@ -1586,9 +1594,11 @@ table Metrics
 			    [Avg CU by Item by Day IOD],
 			    'calendar'[Date2Key] >= TODAY()-7
 			)
-		formatString: #,0.00
+		formatString: #,0
 		displayFolder: Capacity IOD Metrics\Time Intelligence
 		lineageTag: 7ec89853-ece3-4000-915b-7054967922ae
+
+		annotation PBI_FormatHint = {"isDecimal":true}
 
 	/// Calculates the Average CU seconds by Item by Day. It ignores the 'semantic model' and 'storage mode' attributes in the filter context.
 	measure 'Avg Capacity CU 90d IOD' =
@@ -1671,9 +1681,11 @@ table Metrics
 			    [Avg CU by Item by Day IOD],
 			    'calendar'[Date2Key] >= TODAY()-90
 			)
-		formatString: #,0.00
+		formatString: #,0
 		displayFolder: Capacity IOD Metrics\Time Intelligence
 		lineageTag: 0edac413-3b48-4732-bc76-94905a36d412
+
+		annotation PBI_FormatHint = {"isDecimal":true}
 
 	measure 'Max CU by Item by Day 90d IOD' =
 			
@@ -1681,10 +1693,11 @@ table Metrics
 			    [Max CU by Item by Day IOD],
 			    'calendar'[Date2Key] >= TODAY()-90
 			)
+		formatString: #,0
 		displayFolder: Capacity IOD Metrics\Time Intelligence
 		lineageTag: 40e9ac30-eaa6-413d-8145-ba25b48f9662
 
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
+		annotation PBI_FormatHint = {"isDecimal":true}
 
 	measure 'BPA Violations (Background Impact)' =
 			
@@ -1833,10 +1846,11 @@ table Metrics
 			    [Max CU by Item by Day IOD],
 			    'calendar'[Date2Key] >= TODAY()-7
 			)
+		formatString: #,0
 		displayFolder: Capacity IOD Metrics\Time Intelligence
 		lineageTag: cb03dd03-f282-4a08-a1b7-dd95b2fda4ba
 
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
+		annotation PBI_FormatHint = {"isDecimal":true}
 
 	measure 'Avg SMR by Item by Day 90d' =
 			
