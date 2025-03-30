@@ -45,8 +45,8 @@ The deployment of FUAM can be done with very little effort, since we tried to au
 ### 2.2 Create a Workspace
 
 - Create a new workspace "FUAM" (name can be changed), which is backed by a P or F-capacity
-- Download the [Workspace logo](/monitoring/fabric-unified-admin-monitoring/media/deployment/icon_FUAM_workspace.png) 
-- Add the logo to FUAM workspace
+- (**Optional**) Download the [Workspace logo](/monitoring/fabric-unified-admin-monitoring/media/deployment/icon_FUAM_workspace.png) 
+- (**Optional**) Add the logo to FUAM workspace
 
 ## 3. Import and Run Notebook
 
@@ -88,17 +88,17 @@ We recommend to create a new Capacity Metrics App -> workspace in your tenant
 - Navigate to the Capacity Metrics App's Workspace
 - Attach this workspace to a P or F capacity
 - Change the name to 'FUAM Capacity Metrics'
-- Copy the Name of the workspace: FUAM Capacity Metrics' and the name of the semantic model 'Fabric Capacity Metrics'.
+- Copy the Name of the workspace: e.g. 'FUAM Capacity Metrics' and the name of the semantic model e.g. 'Fabric Capacity Metrics'.
 
-The Capacity metrics workspace name will be set later as a value of the 'metrics_workspace' parameter in the 'Load_FUAM_Data_E2E' Pipeline.
+The Capacity metrics workspace name will be set later as a value of the **metrics_workspace** parameter in the 'Load_FUAM_Data_E2E' Pipeline.
 
-The capacity metrics semantic model name will be set lates as a value of the 'metrics_dataset' parameter in the 'Load_FUAM_Data_E2E' Pipeline.
+The capacity metrics semantic model name will be set lates as a value of the **metrics_dataset** parameter in the 'Load_FUAM_Data_E2E' Pipeline.
 
 > **Important:**  By default the Metrics App workspace is created on a Pro license. If you don't change this to F/P-SKU you will get an error
 
 ## 6. Run orchestration Pipeline
 
-> **Info:** The **Load_FUAM_Data_E2E** is the main end-to-end orchestration pipeline of FUAM Basic. It contains/triggers all other sub-pipelines (FUAM modules), which are implemented in the solution. The sub-pipelines download all the required data via APIs and the referenced Notebooks will transform/write the data to the final FUAM_Lakehouse delta tables.
+> **Info:** The **Load_FUAM_Data_E2E** is the main end-to-end orchestration pipeline of FUAM. It contains/triggers all other sub-pipelines (FUAM modules), which are implemented in the solution. The sub-pipelines download all the required data via APIs and the referenced Notebooks will transform/write the data to the final FUAM_Lakehouse delta tables.
 
 - Navigate to your FUAM Workspace
 - Search for the item 'Load_FUAM_Data_E2E'
