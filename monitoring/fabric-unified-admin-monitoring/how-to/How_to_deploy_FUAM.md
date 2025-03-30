@@ -155,7 +155,7 @@ The Pipeline has different parameters, which are controlling the data load flow:
 
 ### 7.3 Open PBI report
 - Navigate to your FUAM Workspace
-- Search for the item 'FUAM_Basic_Overview_Report'
+- Search for the item 'FUAM_Core_Report'
 - Open the **FUAM_Core_Report** Power BI report
 - Feel free to explore the report pages
    ![](/monitoring/fabric-unified-admin-monitoring/media/deployment/FUAM_basic_deployment_process_7_3.png)
@@ -166,7 +166,7 @@ The Pipeline has different parameters, which are controlling the data load flow:
 ## 8. Schedule Pipeline for daily load
 
 - Navigate to your FUAM Workspace
-- Search for the item 'Load_Basic_Package_Sequentially_E2E'
+- Search for the item 'Load_FUAM_Data_E2E'
 - Open the **Load_FUAM_Data_E2E** pipeline
 - (Recommended) Change the **metrics_days_in_scope** parameter value to **2**
 - (Recommended) Change the **activity_days_in_scope** parameter value to **2**
@@ -192,7 +192,7 @@ You have deployed and configured FUAM.
 
 - The pipeline 'Load_Inventory_E2E' is using the notebook owner's identity to query the Scanner API. In case the user doesn't have 'Fabric Administrator' permissions, the notebook will fail. Use Azure Key Vault to run the Scanner API calls in Service Principal context.
 
-- In some cases the reports throw an error because of missing fields, which have not been provided by the API. In this case please execute the following steps:
+- In some cases the reports throw an error because of missing fields (in the semantic model), which have not been provided by the API. In this case please execute the following steps:
 
     - Try to refresh the underlying semantic model
     - Open the semantic model
