@@ -1,182 +1,190 @@
 [
     {
         "name": "FUAM.Workspace",
-        "fuam_id": "4c549dba-8b1e-3019-924b-38a8cd316b30"
+        "fuam_id": "88c8d9fa-2c24-3fad-8f46-b36431c7ba1d"
     },
     {
         "name": "fuam pbi-service-api admin",
-        "fuam_id": "866636d9-56c7-3c28-ba23-9a3a9b5926c6"
+        "fuam_id": "09f68371-365e-3501-a70d-6291901f4ba5"
     },
     {
         "name": "fuam fabric-service-api admin",
-        "fuam_id": "3512b7c5-2a4e-36b1-aa0a-9e86e1eb16e4"
+        "fuam_id": "e665127a-bc6f-3487-b0ce-d3b2141df298"
     },
     {
         "name": "FUAM_Lakehouse.Lakehouse",
-        "fuam_id": "7e22d4a1-2868-38c5-add4-b555a6c2bdb1"
+        "fuam_id": "6cff634b-88f7-3505-bed2-c03a36776a8b"
     },
     {
         "name": "FUAM_Staging_Lakehouse.Lakehouse",
-        "fuam_id": "66ba2741-a2a0-3b6c-bbb2-41f53c6c975d"
+        "fuam_id": "75f030b6-7261-36bc-8852-bcc82a69eb85"
+    },
+    {
+        "name": "FUAM_Config_Lakehouse.Lakehouse",
+        "fuam_id": "5aa75ae1-bfc2-3f9a-b39e-b549e30e96f1"
     },
     {
         "name": "Generate_Calendar_Table.Notebook",
-        "fuam_id": "59efca5e-6fb0-3498-9c95-3b08d99646b1"
+        "fuam_id": "8f6dadb3-5b32-369c-a4e7-33f03853fc28"
+    },
+    {
+        "name": "Init_FUAM_Lakehouse_Tables.Notebook",
+        "fuam_id": "98564ef7-ef80-3544-8026-25c44036ff8c"
     },
     {
         "name": "01_Transfer_Active_Items_Unit.Notebook",
-        "fuam_id": "aa93bc3d-fbf7-3195-bb25-b2af9fa1dd9a"
+        "fuam_id": "9484d28e-31dc-3609-a333-c13a6b7e996b"
     },
     {
         "name": "Load_Items_E2E.DataPipeline",
-        "fuam_id": "6cdf4c37-3596-3a5f-8f36-48d007c5f3c3"
+        "fuam_id": "bf6b036c-f4cf-3064-a41d-7161ebc97e06"
     },
     {
         "name": "02_Transfer_Activities_Unit.Notebook",
-        "fuam_id": "121b06b8-ccb3-340a-a450-7ccdc45c172c"
+        "fuam_id": "43b1d7de-4129-3678-90e3-d2a3214f687a"
     },
     {
         "name": "03_Aggregate_Activities_Unit.Notebook",
-        "fuam_id": "dfd8cd93-4f0e-3ee8-ab4b-fc44d69c622f"
+        "fuam_id": "4ce6d4e5-87f5-3b68-810a-b41139f7e0d7"
     },
     {
         "name": "Load_Activities_E2E.DataPipeline",
-        "fuam_id": "5ec24df9-1f9c-3872-8f7c-51fd4ddaff58"
+        "fuam_id": "b6d26e22-ab2b-36de-aa35-7a7be49c0d16"
     },
     {
         "name": "01_Transfer_Capacities_Unit.Notebook",
-        "fuam_id": "e157c20b-d59a-38ae-b16d-a2c3b0358e84"
+        "fuam_id": "3a2584a0-8a24-385e-bca2-b7e22ce5cdc2"
     },
     {
         "name": "Load_Capacities_E2E.DataPipeline",
-        "fuam_id": "e6eaed45-1788-33d7-a961-c7c01cd92f56"
+        "fuam_id": "bbc79b56-f08d-32e9-8a05-bc54587d743b"
     },
     {
         "name": "01_Transfer_Capacity_Refreshables_Unit.Notebook",
-        "fuam_id": "839100cc-a813-37f4-933f-c411f7aa65df"
+        "fuam_id": "1911097c-906e-3b0b-b5e0-00b2a2557eda"
     },
     {
         "name": "Load_Capacity_Refreshables_E2E.DataPipeline",
-        "fuam_id": "06663c4f-79e5-37ad-9b69-f307e9773259"
+        "fuam_id": "1424bf87-e7cc-3e4d-9cff-b57cd1804641"
     },
     {
         "name": "02_Transfer_Workspaces_Unit.Notebook",
-        "fuam_id": "2b128030-228e-3970-9162-95a3026c92c9"
+        "fuam_id": "ecdb8730-08f9-3d4c-a74d-e13ef4dad801"
     },
     {
         "name": "Load_PBI_Workspaces_E2E.DataPipeline",
-        "fuam_id": "9deee8c9-72ef-35e1-8f2e-3e6099a2ea10"
+        "fuam_id": "c27a06eb-f788-3126-97c6-84da599eaab5"
     },
     {
         "name": "01_Transfer_Incremental_Inventory_Unit.Notebook",
-        "fuam_id": "8575c01a-3806-3976-ae40-ea10c9c3e623"
+        "fuam_id": "d52678e8-1cbd-346f-8349-a7c5a3ca37be"
     },
     {
         "name": "Load_Inventory_E2E.DataPipeline",
-        "fuam_id": "187d8fd9-54e9-3721-a7c4-d1c69b66a95d"
+        "fuam_id": "2e071f9f-715e-3419-8f12-b7f4dfcd854a"
     },
     {
         "name": "01_Transfer_Delegated_Tenant_Settings_Overrides_Unit.Notebook",
-        "fuam_id": "446403ad-13da-3fa2-8353-42eaedd0df29"
+        "fuam_id": "04bb6182-a6b1-3e8c-b42f-950b23fcc3f6"
     },
     {
         "name": "01_Transfer_Tenant_Admin_Settings_Unit.Notebook",
-        "fuam_id": "5944ef76-f902-3db9-8f72-e477e904c734"
+        "fuam_id": "69f8eb8d-7635-37cf-9e75-a39ba3ce1075"
     },
     {
         "name": "Load_Tenant_Settings_E2E.DataPipeline",
-        "fuam_id": "d40158d2-86dd-3b22-932b-acc73c0c0988"
+        "fuam_id": "d7ede29f-f3f9-35c3-a81d-12d10ae16269"
     },
     {
         "name": "Load_Delegated_Tenant_Settings_Overrides_E2E.DataPipeline",
-        "fuam_id": "6ab1b9af-8aca-3306-8b80-17a9f29f17c4"
+        "fuam_id": "8c1a405e-5a90-35c6-bcc4-88ffde924597"
     },
     {
         "name": "01_Transfer_Git_Connections_Unit.Notebook",
-        "fuam_id": "5ba5ee6e-0591-374e-a47a-ae6fdb92b7c1"
+        "fuam_id": "eb83c20b-5433-329a-894b-5bb39c3f9031"
     },
     {
         "name": "Load_Git_Connections_E2E.DataPipeline",
-        "fuam_id": "342bb2c7-64b2-30d9-a246-b010f6bbd721"
+        "fuam_id": "5ecbec01-016b-3033-94d8-2dcb3e41e02a"
     },
     {
         "name": "FUAM_Backup_Lakehouse.Lakehouse",
-        "fuam_id": "13884cb6-01d1-3644-8ff3-d130be3dbf13"
+        "fuam_id": "8522e61c-5940-353d-92d3-c1f594a3c681"
     },
     {
         "name": "01_FUAM_Lakehouse_Backup.Notebook",
-        "fuam_id": "76a46bbc-14d2-3012-8938-ca8ea3791bef"
+        "fuam_id": "606ed91b-795c-37fa-97b3-0b04bb70a70f"
     },
     {
         "name": "02_FUAM_Lakehouse_Optimization.Notebook",
-        "fuam_id": "08857e09-770e-3640-b489-141eda4868e4"
+        "fuam_id": "39b3fdc5-651d-354d-acde-b3121a2c3c25"
     },
     {
         "name": "Maintenance_for_FUAM.DataPipeline",
-        "fuam_id": "b3855499-876c-3a5e-b02e-c091a77e974e"
+        "fuam_id": "cde03ac2-86ea-3102-8b62-451a5b9c5b7b"
     },
     {
         "name": "01_Transfer_CapacityMetricData_Timepoints_Unit.Notebook",
-        "fuam_id": "9065a51d-9fb8-3dad-9ae4-7f4fd223d843"
+        "fuam_id": "0483c441-2a52-3d47-886c-c92d889965bd"
     },
     {
         "name": "02_Transfer_CapacityMetricData_ItemKind_Unit.Notebook",
-        "fuam_id": "ebf6f621-18df-3fd9-b43d-3d0de4733d36"
+        "fuam_id": "8f4db3b0-9262-3ade-9d61-1fdddb091586"
     },
     {
         "name": "03_Transfer_CapacityMetricData_ItemOperation_Unit.Notebook",
-        "fuam_id": "386f2150-2297-3771-8470-ef3f06af4200"
+        "fuam_id": "f7c9cc03-7453-3624-b3f6-24f0e47577b0"
     },
     {
         "name": "04_Transfer_CapacityMetricData_Calendar_Timepoints_Unit.Notebook",
-        "fuam_id": "a1191463-7a14-385a-8ed1-eb623f1319a5"
+        "fuam_id": "998f3822-5363-3dd1-a76d-1230b4a6d0ff"
     },
     {
         "name": "Load_Capacity_Metrics_E2E.DataPipeline",
-        "fuam_id": "21f25779-3e89-3241-a082-bc626e00ee84"
+        "fuam_id": "0c455dc0-51fe-33b8-8b36-401a002dfab4"
     },
     {
         "name": "Load_FUAM_Data_E2E.DataPipeline",
-        "fuam_id": "c91bd9ca-0f48-3c80-9a9f-bdc4db0295d5"
+        "fuam_id": "ad02d6fe-ab95-3fd4-ab53-c010c0a41921"
     },
     {
         "name": "FUAM_Core_SM.SemanticModel",
-        "fuam_id": "b5d38b0b-a80a-30e4-8d80-1704f05d4587"
+        "fuam_id": "ca492c80-b5a6-3a6f-afa9-437b3cb137ed"
     },
     {
         "name": "FUAM_Core_Report.Report",
-        "fuam_id": "b52fde8e-8df8-3517-acbc-963647d65019"
+        "fuam_id": "5778cde4-30aa-3036-96c9-531850aa1dd5"
     },
     {
         "name": "FUAM_Item_SM.SemanticModel",
-        "fuam_id": "7eaaa596-aefd-335d-8184-36b1cf66917b"
+        "fuam_id": "86d4b769-b3d6-39cd-9d26-4cb3b3db57bd"
     },
     {
         "name": "FUAM_Item_Analyzer_Report.Report",
-        "fuam_id": "1cb5488e-b4c9-3886-9132-39f362a4fe3f"
+        "fuam_id": "41a9ccda-72ca-36b4-bbf6-c3d607014485"
     },
     {
         "name": "FUAM_Semantic_Model_Meta_Data_Analyzer_SM.SemanticModel",
-        "fuam_id": "be5984f4-ba46-38bd-aa99-fcca79c43bc0"
+        "fuam_id": "9dcff0c7-3130-3d3d-9bdf-50c0b28ccc50"
     },
     {
         "name": "FUAM_Semantic_Model_Meta_Data_Analyzer_Report.Report",
-        "fuam_id": "308db853-a59c-39cc-acb5-0d8d4360def9"
+        "fuam_id": "150f5447-d468-38be-8c68-039fcceaa1a0"
     },
     {
         "name": "FUAM_SQL_Endpoint_Analyzer_SM.SemanticModel",
-        "fuam_id": "3b51075c-6a53-3f0c-b7c5-8bf1e2cefb62"
+        "fuam_id": "edca53fc-3c5e-3bae-a64a-4d08db919fb1"
     },
     {
         "name": "FUAM_SQL_Endpoint_Analyzer_Report.Report",
-        "fuam_id": "f97d5927-6efc-3e52-b0d9-e4589787f2b1"
+        "fuam_id": "59809179-8e80-3ddc-8dd7-6cab108e3678"
     },
     {
         "name": "FUAM_Gateway_Monitoring_From_Files_SM.SemanticModel",
-        "fuam_id": "424f75df-5e18-3607-ba26-0ad4aa4c1342"
+        "fuam_id": "f96b94aa-466d-35f9-851f-cde9111b0f17"
     },
     {
         "name": "FUAM_Gateway_Monitoring_From_Files_Report.Report",
-        "fuam_id": "cc1a13b5-f4e9-338f-9e34-cefb281f104e"
+        "fuam_id": "3695cd0e-da7e-3b40-ad28-5bd1bcd33eb6"
     }
 ]
