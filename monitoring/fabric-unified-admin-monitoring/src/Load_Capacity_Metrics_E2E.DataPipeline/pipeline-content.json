@@ -13,8 +13,8 @@
                     "secureInput": false
                 },
                 "typeProperties": {
-                    "notebookId": "2a4d82cd-7581-5548-a184-301407eadbc1",
-                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
+                    "notebookId": "9065a51d-9fb8-3dad-9ae4-7f4fd223d843",
+                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
                     "parameters": {
                         "metric_days_in_scope": {
                             "value": {
@@ -44,7 +44,8 @@
                             },
                             "type": "bool"
                         }
-                    }
+                    },
+                    "sessionTag": "fuam"
                 }
             },
             {
@@ -66,8 +67,8 @@
                     "secureInput": false
                 },
                 "typeProperties": {
-                    "notebookId": "fc8c385f-18f8-556f-986b-a360cc855827",
-                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
+                    "notebookId": "ebf6f621-18df-3fd9-b43d-3d0de4733d36",
+                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
                     "parameters": {
                         "metric_days_in_scope": {
                             "value": {
@@ -97,7 +98,8 @@
                             },
                             "type": "bool"
                         }
-                    }
+                    },
+                    "sessionTag": "fuam"
                 }
             },
             {
@@ -119,8 +121,8 @@
                     "secureInput": false
                 },
                 "typeProperties": {
-                    "notebookId": "38e5dae7-b770-535e-85a3-512d20d8c556",
-                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
+                    "notebookId": "386f2150-2297-3771-8470-ef3f06af4200",
+                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
                     "parameters": {
                         "metric_days_in_scope": {
                             "value": {
@@ -150,7 +152,8 @@
                             },
                             "type": "bool"
                         }
-                    }
+                    },
+                    "sessionTag": "fuam"
                 }
             }
         ],

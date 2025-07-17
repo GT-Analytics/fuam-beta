@@ -1,11 +1,12 @@
 {
+    "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definitionProperties/1.0.0/schema.json",
     "version": "4.0",
     "datasetReference": {
         "byConnection": {
-            "connectionString": "Data Source=\"powerbi://api.powerbi.com/v1.0/myorg/FUAM Master DEV\";Initial Catalog=FUAM_Gateway_Monitoring_From_Files_SM;Integrated Security=ClaimsToken",
+            "connectionString": "Data Source=\"powerbi://api.powerbi.com/v1.0/myorg/FUAM Version 2025-07\";initial catalog=FUAM_Gateway_Monitoring_From_Files_SM;integrated security=ClaimsToken",
             "pbiServiceModelId": null,
             "pbiModelVirtualServerName": "sobe_wowvirtualserver",
-            "pbiModelDatabaseName": "dff06bbb-5fd2-554b-863d-2cb12e6e94ff",
+            "pbiModelDatabaseName": "424f75df-5e18-3607-ba26-0ad4aa4c1342",
             "name": "EntityDataSource",
             "connectionType": "pbiServiceXmlaStyleLive"
         }

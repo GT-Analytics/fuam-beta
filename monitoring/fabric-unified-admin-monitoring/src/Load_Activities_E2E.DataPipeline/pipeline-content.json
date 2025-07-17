@@ -20,7 +20,7 @@
                 "typeProperties": {
                     "variableName": "dayArray",
                     "value": {
-                        "value": "@range(0, sub(pipeline().parameters.fromDateDayAgo, 1))",
+                        "value": "@range(0, pipeline().parameters.fromDateDayAgo)",
                         "type": "Expression"
                     }
                 }
@@ -158,7 +158,7 @@
                                         },
                                         "schema": [],
                                         "externalReferences": {
-                                            "connection": "30c5df6c-5353-562f-9d7a-01a9eec0250b"
+                                            "connection": "866636d9-56c7-3c28-ba23-9a3a9b5926c6"
                                         }
                                     }
                                 },
@@ -179,8 +179,8 @@
                                                 "annotations": [],
                                                 "type": "Lakehouse",
                                                 "typeProperties": {
-                                                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
-                                                    "artifactId": "729eb8a2-8070-5ed8-ad43-dccbc00b32af",
+                                                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
+                                                    "artifactId": "7e22d4a1-2868-38c5-add4-b555a6c2bdb1",
                                                     "rootFolder": "Files"
                                                 }
                                             }
@@ -248,8 +248,8 @@
                                 "annotations": [],
                                 "type": "Lakehouse",
                                 "typeProperties": {
-                                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
-                                    "artifactId": "729eb8a2-8070-5ed8-ad43-dccbc00b32af",
+                                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
+                                    "artifactId": "7e22d4a1-2868-38c5-add4-b555a6c2bdb1",
                                     "rootFolder": "Files"
                                 }
                             }
@@ -289,8 +289,8 @@
                     "secureInput": false
                 },
                 "typeProperties": {
-                    "notebookId": "79eae50d-9aa9-50f9-99e2-0436ba9ab649",
-                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
+                    "notebookId": "121b06b8-ccb3-340a-a450-7ccdc45c172c",
+                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
                     "parameters": {
                         "display_data": {
                             "value": {
@@ -322,8 +322,8 @@
                     "secureInput": false
                 },
                 "typeProperties": {
-                    "notebookId": "b87e115f-b8d0-5505-b264-8cd986ededc3",
-                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
+                    "notebookId": "dfd8cd93-4f0e-3ee8-ab4b-fc44d69c622f",
+                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
                     "parameters": {
                         "display_data": {
                             "value": {

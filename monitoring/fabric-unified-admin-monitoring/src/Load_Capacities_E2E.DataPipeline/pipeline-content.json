@@ -20,8 +20,8 @@
                     "secureInput": false
                 },
                 "typeProperties": {
-                    "notebookId": "164524ea-e82b-5f52-a752-1ee9ac0d3808",
-                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
+                    "notebookId": "e157c20b-d59a-38ae-b16d-a2c3b0358e84",
+                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
                     "parameters": {
                         "display_data": {
                             "value": {
@@ -63,7 +63,7 @@
                             },
                             "schema": [],
                             "externalReferences": {
-                                "connection": "30c5df6c-5353-562f-9d7a-01a9eec0250b"
+                                "connection": "866636d9-56c7-3c28-ba23-9a3a9b5926c6"
                             }
                         }
                     },
@@ -84,8 +84,8 @@
                                     "annotations": [],
                                     "type": "Lakehouse",
                                     "typeProperties": {
-                                        "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
-                                        "artifactId": "729eb8a2-8070-5ed8-ad43-dccbc00b32af",
+                                        "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
+                                        "artifactId": "7e22d4a1-2868-38c5-add4-b555a6c2bdb1",
                                         "rootFolder": "Files"
                                     }
                                 }

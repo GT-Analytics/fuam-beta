@@ -1,5 +1,5 @@
 workspace: 
-  src: 'FUAM Master DEV'
+  src: 'FUAM Version 2025-07'
   trg: 'FUAM Master TEST'
 connections:
   pbi_connection :
@@ -11,8 +11,8 @@ connections:
 
 items:
   - FUAM_Lakehouse.Lakehouse
-  - FUAM_Config_Lakehouse.Lakehouse
   - FUAM_Staging_Lakehouse.Lakehouse
+  - FUAM_Config_Lakehouse.Lakehouse
 
   - Generate_Calendar_Table.Notebook
   - Init_FUAM_Lakehouse_Tables.Notebook
@@ -53,15 +53,16 @@ items:
   - 01_Transfer_CapacityMetricData_Timepoints_Unit.Notebook
   - 02_Transfer_CapacityMetricData_ItemKind_Unit.Notebook
   - 03_Transfer_CapacityMetricData_ItemOperation_Unit.Notebook
+  - 04_Transfer_CapacityMetricData_Calendar_Timepoints_Unit.Notebook
   - Load_Capacity_Metrics_E2E.DataPipeline
 
   - Load_FUAM_Data_E2E.DataPipeline
 
-  - FUAM_Item_SM.SemanticModel
-  - FUAM_Item_Analyzer_Report.Report
-
   - FUAM_Core_SM.SemanticModel
   - FUAM_Core_Report.Report
+
+  - FUAM_Item_SM.SemanticModel
+  - FUAM_Item_Analyzer_Report.Report
 
   - FUAM_Semantic_Model_Meta_Data_Analyzer_SM.SemanticModel
   - FUAM_Semantic_Model_Meta_Data_Analyzer_Report.Report

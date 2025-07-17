@@ -13,8 +13,8 @@
                     "secureInput": false
                 },
                 "typeProperties": {
-                    "notebookId": "356043fc-da88-5bab-9eaf-586787c6da6d",
-                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
+                    "notebookId": "76a46bbc-14d2-3012-8938-ca8ea3791bef",
+                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
                     "parameters": {
                         "backup_files": {
                             "value": {
@@ -30,7 +30,8 @@
                             },
                             "type": "int"
                         }
-                    }
+                    },
+                    "sessionTag": "fuam"
                 }
             },
             {
@@ -52,8 +53,8 @@
                     "secureInput": false
                 },
                 "typeProperties": {
-                    "notebookId": "6a60b8f4-2512-5832-8c57-aa0bc6463d8d",
-                    "workspaceId": "eb764c8b-cf3b-55be-adf4-348fe9233657",
+                    "notebookId": "08857e09-770e-3640-b489-141eda4868e4",
+                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
                     "parameters": {
                         "number_of_days": {
                             "value": {
@@ -63,7 +64,8 @@
                             "type": "int"
                         }
                     }
-                }
+                },
+                "sessionTag": "fuam"
             }
         ],
         "parameters": {
