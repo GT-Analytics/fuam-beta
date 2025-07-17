@@ -6,7 +6,7 @@
             "connectionString": "Data Source=\"powerbi://api.powerbi.com/v1.0/myorg/FUAM Version 2025-07\";initial catalog=FUAM_SQL_Endpoint_Analyzer_SM;integrated security=ClaimsToken",
             "pbiServiceModelId": null,
             "pbiModelVirtualServerName": "sobe_wowvirtualserver",
-            "pbiModelDatabaseName": "3b51075c-6a53-3f0c-b7c5-8bf1e2cefb62",
+            "pbiModelDatabaseName": "edca53fc-3c5e-3bae-a64a-4d08db919fb1",
             "name": "EntityDataSource",
             "connectionType": "pbiServiceXmlaStyleLive"
         }

@@ -17,7 +17,7 @@
                 },
                 "typeProperties": {
                     "pipeline": {
-                        "referenceName": "5ec24df9-1f9c-3872-8f7c-51fd4ddaff58",
+                        "referenceName": "b6d26e22-ab2b-36de-aa35-7a7be49c0d16",
                         "type": "PipelineReference"
                     },
                     "waitOnCompletion": true,
@@ -42,7 +42,7 @@
                 },
                 "typeProperties": {
                     "pipeline": {
-                        "referenceName": "9deee8c9-72ef-35e1-8f2e-3e6099a2ea10",
+                        "referenceName": "c27a06eb-f788-3126-97c6-84da599eaab5",
                         "type": "PipelineReference"
                     },
                     "waitOnCompletion": true,
@@ -64,7 +64,7 @@
                 },
                 "typeProperties": {
                     "pipeline": {
-                        "referenceName": "e6eaed45-1788-33d7-a961-c7c01cd92f56",
+                        "referenceName": "bbc79b56-f08d-32e9-8a05-bc54587d743b",
                         "type": "PipelineReference"
                     },
                     "waitOnCompletion": true,
@@ -92,7 +92,7 @@
                 },
                 "typeProperties": {
                     "pipeline": {
-                        "referenceName": "06663c4f-79e5-37ad-9b69-f307e9773259",
+                        "referenceName": "1424bf87-e7cc-3e4d-9cff-b57cd1804641",
                         "type": "PipelineReference"
                     },
                     "waitOnCompletion": true,
@@ -126,7 +126,7 @@
                 },
                 "typeProperties": {
                     "pipeline": {
-                        "referenceName": "21f25779-3e89-3241-a082-bc626e00ee84",
+                        "referenceName": "0c455dc0-51fe-33b8-8b36-401a002dfab4",
                         "type": "PipelineReference"
                     },
                     "waitOnCompletion": true,
@@ -166,7 +166,7 @@
                 },
                 "typeProperties": {
                     "pipeline": {
-                        "referenceName": "187d8fd9-54e9-3721-a7c4-d1c69b66a95d",
+                        "referenceName": "2e071f9f-715e-3419-8f12-b7f4dfcd854a",
                         "type": "PipelineReference"
                     },
                     "waitOnCompletion": true,
@@ -218,7 +218,7 @@
                 },
                 "typeProperties": {
                     "pipeline": {
-                        "referenceName": "d40158d2-86dd-3b22-932b-acc73c0c0988",
+                        "referenceName": "d7ede29f-f3f9-35c3-a81d-12d10ae16269",
                         "type": "PipelineReference"
                     },
                     "waitOnCompletion": true,
@@ -246,7 +246,7 @@
                 },
                 "typeProperties": {
                     "pipeline": {
-                        "referenceName": "6ab1b9af-8aca-3306-8b80-17a9f29f17c4",
+                        "referenceName": "8c1a405e-5a90-35c6-bcc4-88ffde924597",
                         "type": "PipelineReference"
                     },
                     "waitOnCompletion": true,
@@ -267,7 +267,7 @@
                 },
                 "typeProperties": {
                     "pipeline": {
-                        "referenceName": "6cdf4c37-3596-3a5f-8f36-48d007c5f3c3",
+                        "referenceName": "bf6b036c-f4cf-3064-a41d-7161ebc97e06",
                         "type": "PipelineReference"
                     },
                     "waitOnCompletion": true,
@@ -298,8 +298,8 @@
                     "secureInput": false
                 },
                 "typeProperties": {
-                    "notebookId": "59efca5e-6fb0-3498-9c95-3b08d99646b1",
-                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
+                    "notebookId": "8f6dadb3-5b32-369c-a4e7-33f03853fc28",
+                    "workspaceId": "88c8d9fa-2c24-3fad-8f46-b36431c7ba1d",
                     "sessionTag": "fuam"
                 }
             },
@@ -319,7 +319,7 @@
                 },
                 "typeProperties": {
                     "pipeline": {
-                        "referenceName": "342bb2c7-64b2-30d9-a246-b010f6bbd721",
+                        "referenceName": "5ecbec01-016b-3033-94d8-2dcb3e41e02a",
                         "type": "PipelineReference"
                     },
                     "waitOnCompletion": true,

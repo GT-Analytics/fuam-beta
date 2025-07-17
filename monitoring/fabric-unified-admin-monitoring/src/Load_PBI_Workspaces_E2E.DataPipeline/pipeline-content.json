@@ -21,8 +21,8 @@
                                 "annotations": [],
                                 "type": "Lakehouse",
                                 "typeProperties": {
-                                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
-                                    "artifactId": "7e22d4a1-2868-38c5-add4-b555a6c2bdb1",
+                                    "workspaceId": "88c8d9fa-2c24-3fad-8f46-b36431c7ba1d",
+                                    "artifactId": "6cff634b-88f7-3505-bed2-c03a36776a8b",
                                     "rootFolder": "Files"
                                 }
                             }
@@ -83,7 +83,7 @@
                         },
                         "schema": [],
                         "externalReferences": {
-                            "connection": "866636d9-56c7-3c28-ba23-9a3a9b5926c6"
+                            "connection": "09f68371-365e-3501-a70d-6291901f4ba5"
                         }
                     }
                 }
@@ -229,7 +229,7 @@
                                         },
                                         "schema": [],
                                         "externalReferences": {
-                                            "connection": "866636d9-56c7-3c28-ba23-9a3a9b5926c6"
+                                            "connection": "09f68371-365e-3501-a70d-6291901f4ba5"
                                         }
                                     }
                                 },
@@ -250,8 +250,8 @@
                                                 "annotations": [],
                                                 "type": "Lakehouse",
                                                 "typeProperties": {
-                                                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
-                                                    "artifactId": "7e22d4a1-2868-38c5-add4-b555a6c2bdb1",
+                                                    "workspaceId": "88c8d9fa-2c24-3fad-8f46-b36431c7ba1d",
+                                                    "artifactId": "6cff634b-88f7-3505-bed2-c03a36776a8b",
                                                     "rootFolder": "Files"
                                                 }
                                             }
@@ -295,8 +295,8 @@
                     "secureInput": false
                 },
                 "typeProperties": {
-                    "notebookId": "2b128030-228e-3970-9162-95a3026c92c9",
-                    "workspaceId": "4c549dba-8b1e-3019-924b-38a8cd316b30",
+                    "notebookId": "ecdb8730-08f9-3d4c-a74d-e13ef4dad801",
+                    "workspaceId": "88c8d9fa-2c24-3fad-8f46-b36431c7ba1d",
                     "parameters": {
                         "display_data": {
                             "value": {

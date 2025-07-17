@@ -1940,8 +1940,8 @@ table Metrics
 			
 			// Get Analyzer report workspaceId and ReportId from FUAM Workspace
 			// For specific semantic model workloads
-			VAR _workspace_id = "4c549dba-8b1e-3019-924b-38a8cd316b30"
-			VAR _reportId = "1cb5488e-b4c9-3886-9132-39f362a4fe3f"
+			VAR _workspace_id = "88c8d9fa-2c24-3fad-8f46-b36431c7ba1d"
+			VAR _reportId = "41a9ccda-72ca-36b4-bbf6-c3d607014485"
 			
 			RETURN
 			IF(
@@ -2135,8 +2135,8 @@ table Metrics
 			
 			// Get Analyzer report workspaceId and ReportId from FUAM Workspace
 			// For every workload
-			VAR _workspace_id = "4c549dba-8b1e-3019-924b-38a8cd316b30"
-			VAR _reportId = "1cb5488e-b4c9-3886-9132-39f362a4fe3f"
+			VAR _workspace_id = "88c8d9fa-2c24-3fad-8f46-b36431c7ba1d"
+			VAR _reportId = "41a9ccda-72ca-36b4-bbf6-c3d607014485"
 			
 			// Put URL link together for selected item
 			RETURN
