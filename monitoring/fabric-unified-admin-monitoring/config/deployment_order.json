@@ -136,10 +136,6 @@
         "fuam_id": "f7c9cc03-7453-3624-b3f6-24f0e47577b0"
     },
     {
-        "name": "04_Transfer_CapacityMetricData_Calendar_Timepoints_Unit.Notebook",
-        "fuam_id": "998f3822-5363-3dd1-a76d-1230b4a6d0ff"
-    },
-    {
         "name": "Load_Capacity_Metrics_E2E.DataPipeline",
         "fuam_id": "0c455dc0-51fe-33b8-8b36-401a002dfab4"
     },
