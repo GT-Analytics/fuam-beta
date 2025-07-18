@@ -827,6 +827,15 @@ table Metrics
 		displayFolder: Helper
 		lineageTag: 5d80af73-ce8f-434c-adac-bc137025f225
 
+	measure 'Selected SM Connectivity Mode' =
+			
+			CALCULATE(
+			    MIN(semantic_model_content_types[MappedName]),
+			    CROSSFILTER(semantic_model_content_types[ContentProviderType], semantic_models[ContentProviderType], Both)
+			)
+		displayFolder: Helper
+		lineageTag: d646a50c-8508-41e2-a25c-44d8f5c83018
+
 	column Value
 		isHidden
 		lineageTag: 36bb8156-da04-4f6d-a909-7082d1e29721

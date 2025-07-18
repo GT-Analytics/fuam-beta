@@ -20,7 +20,7 @@
                 "typeProperties": {
                     "variableName": "dayArray",
                     "value": {
-                        "value": "@range(0, pipeline().parameters.fromDateDayAgo)",
+                        "value": "@range(0, min(add(pipeline().parameters.fromDateDayAgo, 1), 28))",
                         "type": "Expression"
                     }
                 }
@@ -340,7 +340,7 @@
         "parameters": {
             "fromDateDayAgo": {
                 "type": "int",
-                "defaultValue": 30
+                "defaultValue": 28
             },
             "display_data": {
                 "type": "bool",

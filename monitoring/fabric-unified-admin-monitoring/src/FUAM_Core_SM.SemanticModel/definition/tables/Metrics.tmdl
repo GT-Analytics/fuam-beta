@@ -2200,6 +2200,23 @@ table Metrics
 		displayFolder: Helper
 		lineageTag: d38536bf-5137-4117-9bc1-0c4d6ef4bcc1
 
+	measure 'FUAM Update Available' =
+			
+			IF([FUAM Release] == MAX(audit_latest_available_fuam_version[current_fuam_version]), 0, 1)
+		formatString: 0
+		displayFolder: Meta
+		lineageTag: 8d5c9da8-7820-4822-abac-4f604d6fbe11
+
+	measure 'FUAM Release Message' =
+			
+			IF(
+			    [FUAM Release] == MAX(audit_latest_available_fuam_version[current_fuam_version]),
+			     "FUAM is up-to-date",
+			     "Update is available"
+			    )
+		displayFolder: Meta
+		lineageTag: 551c2d6c-79d7-4f74-b0cc-d5ebe6616b9b
+
 	column Value
 		isHidden
 		lineageTag: 6e177236-9abc-4961-ae93-da64da18826c

@@ -44,7 +44,6 @@ ref table Metrics
 ref table tenant_settings
 ref table delegated_tenant_settings_overrides
 ref table capacity_refreshable_details
-ref table capacity_refreshable_summaries
 ref table git_connections
 ref table semantic_model_bpa_results
 ref table capacity_regions
@@ -56,6 +55,8 @@ ref table semantic_model_content_types
 ref table semantic_model_vertipaq_tables
 ref table semantic_model_vertipaq_relationships
 ref table calendar_timepoints
+ref table capacity_refreshable_summaries
+ref table audit_latest_available_fuam_version
 
 ref cultureInfo en-US
 
