@@ -298,6 +298,27 @@
                                 "type": "Expression"
                             },
                             "type": "bool"
+                        },
+                        "activity_days_in_scope": {
+                            "value": {
+                                "value": "@pipeline().parameters.fromDateDayAgo",
+                                "type": "Expression"
+                            },
+                            "type": "int"
+                        },
+                        "anonymize_tables": {
+                            "value": {
+                                "value": "@pipeline().parameters.anonymize_tables",
+                                "type": "Expression"
+                            },
+                            "type": "bool"
+                        },
+                        "anonymize_files": {
+                            "value": {
+                                "value": "@pipeline().parameters.anonymize_files",
+                                "type": "Expression"
+                            },
+                            "type": "bool"
                         }
                     },
                     "sessionTag": "fuam"
@@ -345,6 +366,14 @@
             "display_data": {
                 "type": "bool",
                 "defaultValue": false
+            },
+            "anonymize_tables": {
+                "type": "string",
+                "defaultValue": "false"
+            },
+            "anonymize_files": {
+                "type": "string",
+                "defaultValue": "false"
             }
         },
         "variables": {
