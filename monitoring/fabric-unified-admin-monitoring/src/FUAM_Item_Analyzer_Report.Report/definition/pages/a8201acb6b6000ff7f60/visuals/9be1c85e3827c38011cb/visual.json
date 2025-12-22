@@ -367,6 +367,26 @@
                         }
                     }
                 }
+            ],
+            "subTitle": [
+                {
+                    "properties": {
+                        "show": {
+                            "expr": {
+                                "Literal": {
+                                    "Value": "true"
+                                }
+                            }
+                        },
+                        "text": {
+                            "expr": {
+                                "Literal": {
+                                    "Value": "'Highlight a Run from the left handside to filter this table'"
+                                }
+                            }
+                        }
+                    }
+                }
             ]
         },
         "drillFilterOtherVisuals": true

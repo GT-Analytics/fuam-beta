@@ -2,8 +2,8 @@
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
     "name": "23ef6f95a140c30e2608",
     "position": {
-        "x": 1590.2581755593803,
-        "y": 674.7676172064586,
+        "x": 1589.8942029559773,
+        "y": 708.3584815963062,
         "z": 3000,
         "height": 93.87263339070567,
         "width": 294.6299483648881,
@@ -38,7 +38,11 @@
                             {
                                 "textRuns": [
                                     {
-                                        "value": "FUAM's item analyzer provides a unique holistic view of the selected item."
+                                        "value": "FUAM’s Item Analyzer provides a unique, holistic view of the selected item.",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
+                                        }
                                     }
                                 ]
                             }

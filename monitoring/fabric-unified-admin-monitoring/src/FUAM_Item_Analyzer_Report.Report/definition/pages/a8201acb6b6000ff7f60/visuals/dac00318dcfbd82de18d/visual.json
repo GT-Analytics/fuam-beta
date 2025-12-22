@@ -10,7 +10,7 @@
         "tabOrder": 25000
     },
     "visual": {
-        "visualType": "lineChart",
+        "visualType": "lineClusteredColumnComboChart",
         "query": {
             "queryState": {
                 "Category": {
@@ -441,76 +441,6 @@
                 },
                 "type": "Categorical",
                 "howCreated": "User"
-            },
-            {
-                "name": "a28bbf1e293399ff10a7",
-                "field": {
-                    "Column": {
-                        "Expression": {
-                            "SourceRef": {
-                                "Entity": "calendar"
-                            }
-                        },
-                        "Property": "Date2Key"
-                    }
-                },
-                "type": "Categorical"
-            },
-            {
-                "name": "79624792f2ae3ca4249e",
-                "field": {
-                    "Measure": {
-                        "Expression": {
-                            "SourceRef": {
-                                "Entity": "Metrics"
-                            }
-                        },
-                        "Property": "# Report Activities"
-                    }
-                },
-                "type": "Advanced"
-            },
-            {
-                "name": "4877fba15f2c381829d9",
-                "field": {
-                    "Measure": {
-                        "Expression": {
-                            "SourceRef": {
-                                "Entity": "Metrics"
-                            }
-                        },
-                        "Property": "# Viewed Reports"
-                    }
-                },
-                "type": "Advanced"
-            },
-            {
-                "name": "78287d9440ad208099b2",
-                "field": {
-                    "Measure": {
-                        "Expression": {
-                            "SourceRef": {
-                                "Entity": "Metrics"
-                            }
-                        },
-                        "Property": "# Item Activities"
-                    }
-                },
-                "type": "Advanced"
-            },
-            {
-                "name": "c180bf8e2196268e673b",
-                "field": {
-                    "Measure": {
-                        "Expression": {
-                            "SourceRef": {
-                                "Entity": "Metrics"
-                            }
-                        },
-                        "Property": "# Users"
-                    }
-                },
-                "type": "Advanced"
             }
         ],
         "filterSortOrder": "Custom"

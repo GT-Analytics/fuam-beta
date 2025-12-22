@@ -43,7 +43,7 @@
                             },
                             "queryRef": "aggregated_activities_last_30days.CreationDate",
                             "nativeQueryRef": "CreationDate",
-                            "active": false
+                            "active": true
                         },
                         {
                             "field": {
@@ -175,7 +175,20 @@
                         "isCollapsed": true
                     }
                 ],
-                "root": {}
+                "root": {
+                    "children": [
+                        {
+                            "identityValues": [
+                                {
+                                    "Literal": {
+                                        "Value": "'ConnectFromExternalApplication'"
+                                    }
+                                }
+                            ],
+                            "isToggled": true
+                        }
+                    ]
+                }
             }
         ],
         "objects": {

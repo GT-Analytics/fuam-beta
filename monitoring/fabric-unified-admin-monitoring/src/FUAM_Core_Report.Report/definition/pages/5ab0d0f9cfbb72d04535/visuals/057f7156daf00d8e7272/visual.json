@@ -1,19 +1,19 @@
 {
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
-    "name": "235fba2e752d12fd4381",
+    "name": "057f7156daf00d8e7272",
     "position": {
-        "x": 21.768707482993197,
-        "y": 175.60090702947846,
-        "z": 2000,
-        "height": 875.1020408163265,
-        "width": 975.2380952380952,
-        "tabOrder": 8000
+        "x": 771.7391304347826,
+        "y": 91.30434782608695,
+        "z": 9005,
+        "height": 305.4347826086956,
+        "width": 1121.7391304347825,
+        "tabOrder": 9005
     },
     "visual": {
-        "visualType": "treemap",
+        "visualType": "barChart",
         "query": {
             "queryState": {
-                "Group": {
+                "Category": {
                     "projections": [
                         {
                             "field": {
@@ -23,35 +23,104 @@
                                             "Entity": "datasource_instances"
                                         }
                                     },
-                                    "Property": "DatasourceType"
+                                    "Property": "FUAM_ConnectionString"
                                 }
                             },
-                            "queryRef": "datasource_instances.DatasourceType",
-                            "nativeQueryRef": "DatasourceType",
+                            "queryRef": "datasource_instances.FUAM_ConnectionString",
+                            "nativeQueryRef": "FUAM_ConnectionString",
                             "active": true
                         }
                     ]
                 },
-                "Values": {
+                "Series": {
                     "projections": [
                         {
                             "field": {
-                                "Measure": {
+                                "Column": {
                                     "Expression": {
                                         "SourceRef": {
-                                            "Entity": "Metrics"
+                                            "Entity": "semantic_model_content_types"
                                         }
                                     },
-                                    "Property": "# Datasource Instances"
+                                    "Property": "MappedName"
                                 }
                             },
-                            "queryRef": "Metrics.# Datasource Instances",
-                            "nativeQueryRef": "# Datasource Instances"
+                            "queryRef": "semantic_model_content_types.MappedName",
+                            "nativeQueryRef": "Semantic Model Kind",
+                            "displayName": "Semantic Model Kind"
+                        }
+                    ]
+                },
+                "Tooltips": {
+                    "projections": [
+                        {
+                            "field": {
+                                "Aggregation": {
+                                    "Expression": {
+                                        "Column": {
+                                            "Expression": {
+                                                "SourceRef": {
+                                                    "Entity": "semantic_model_datasources"
+                                                }
+                                            },
+                                            "Property": "SemanticModelId"
+                                        }
+                                    },
+                                    "Function": 5
+                                }
+                            },
+                            "queryRef": "CountNonNull(semantic_model_datasources.SemanticModelId)",
+                            "nativeQueryRef": "# Semantic Models",
+                            "displayName": "# Semantic Models"
+                        }
+                    ]
+                },
+                "Y": {
+                    "projections": [
+                        {
+                            "field": {
+                                "Aggregation": {
+                                    "Expression": {
+                                        "Column": {
+                                            "Expression": {
+                                                "SourceRef": {
+                                                    "Entity": "semantic_model_datasources"
+                                                }
+                                            },
+                                            "Property": "SemanticModelId"
+                                        }
+                                    },
+                                    "Function": 5
+                                }
+                            },
+                            "queryRef": "CountNonNull(semantic_model_datasources.SemanticModelId)",
+                            "nativeQueryRef": "# Semantic Models",
+                            "displayName": "# Semantic Models"
                         }
                     ]
                 }
             },
             "sortDefinition": {
+                "sort": [
+                    {
+                        "field": {
+                            "Aggregation": {
+                                "Expression": {
+                                    "Column": {
+                                        "Expression": {
+                                            "SourceRef": {
+                                                "Entity": "semantic_model_datasources"
+                                            }
+                                        },
+                                        "Property": "SemanticModelId"
+                                    }
+                                },
+                                "Function": 5
+                            }
+                        },
+                        "direction": "Descending"
+                    }
+                ],
                 "isDefaultSort": true
             }
         },
@@ -238,20 +307,13 @@
                     }
                 }
             ],
-            "categoryLabels": [
+            "categoryAxis": [
                 {
                     "properties": {
-                        "fontSize": {
+                        "maxMarginFactor": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "11D"
-                                }
-                            }
-                        },
-                        "fontFamily": {
-                            "expr": {
-                                "Literal": {
-                                    "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                                    "Value": "50L"
                                 }
                             }
                         }
@@ -273,7 +335,7 @@
                         "text": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "'# Connections by Data Source Type'"
+                                    "Value": "'# Semantic Models by Connection String'"
                                 }
                             }
                         },
@@ -395,22 +457,8 @@
                         "Property": "DatasourceType"
                     }
                 },
-                "type": "Categorical"
-            },
-            {
-                "name": "045665205632f5c358be",
-                "ordinal": 1,
-                "field": {
-                    "Measure": {
-                        "Expression": {
-                            "SourceRef": {
-                                "Entity": "Metrics"
-                            }
-                        },
-                        "Property": "# Datasource Instances"
-                    }
-                },
-                "type": "Advanced"
+                "type": "Categorical",
+                "howCreated": "User"
             }
         ],
         "filterSortOrder": "Custom"

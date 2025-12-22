@@ -193,5 +193,23 @@
             ]
         },
         "drillFilterOtherVisuals": true
+    },
+    "filterConfig": {
+        "filters": [
+            {
+                "name": "d709e57f443721f6993e",
+                "field": {
+                    "Measure": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "Metrics"
+                            }
+                        },
+                        "Property": "# Users last 30d"
+                    }
+                },
+                "type": "Advanced"
+            }
+        ]
     }
 }

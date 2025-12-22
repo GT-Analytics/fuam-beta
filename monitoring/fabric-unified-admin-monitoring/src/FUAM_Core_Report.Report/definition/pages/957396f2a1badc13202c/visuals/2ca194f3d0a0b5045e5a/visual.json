@@ -127,16 +127,16 @@
                 "sort": [
                     {
                         "field": {
-                            "Measure": {
+                            "Column": {
                                 "Expression": {
                                     "SourceRef": {
-                                        "Entity": "Metrics"
+                                        "Entity": "capacity_metrics_by_item_by_operation_by_day"
                                     }
                                 },
-                                "Property": "CU Outlier Factor IOD OA"
+                                "Property": "ItemKind"
                             }
                         },
-                        "direction": "Descending"
+                        "direction": "Ascending"
                     }
                 ]
             }

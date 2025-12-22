@@ -2,11 +2,11 @@
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
     "name": "fd5795f9d1b8c02e3f01",
     "position": {
-        "x": 101.08695652173913,
-        "y": 1551.086956521739,
+        "x": 101.72413793103449,
+        "y": 1551.7241379310346,
         "z": 22000,
-        "height": 432.6086956521739,
-        "width": 498.9130434782609,
+        "height": 627.5862068965517,
+        "width": 498.2758620689656,
         "tabOrder": 23000
     },
     "visual": {
@@ -994,7 +994,7 @@
                         "text": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "'Vertipaq Insights over Runs'"
+                                    "Value": "'Semantic Model Memory Analyzer Results over Runs'"
                                 }
                             }
                         },

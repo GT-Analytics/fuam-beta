@@ -2,11 +2,11 @@
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
     "name": "8de4f24754a86d01d27b",
     "position": {
-        "x": 139.41480206540447,
-        "y": 16.729776247848537,
+        "x": 148.27586206896552,
+        "y": 15.517241379310345,
         "z": 0,
-        "height": 37.177280550774526,
-        "width": 586.4716006884681,
+        "height": 36.20689655172414,
+        "width": 586.2068965517242,
         "tabOrder": 5000
     },
     "visual": {
@@ -19,7 +19,7 @@
                             {
                                 "textRuns": [
                                     {
-                                        "value": "Datasources based on last scan",
+                                        "value": "Datasources & Semantic Model Connections based on last scan",
                                         "textStyle": {
                                             "fontWeight": "bold",
                                             "fontSize": "14pt"

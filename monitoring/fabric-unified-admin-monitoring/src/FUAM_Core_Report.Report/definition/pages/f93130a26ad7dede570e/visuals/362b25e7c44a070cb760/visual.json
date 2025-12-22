@@ -193,5 +193,23 @@
             ]
         },
         "drillFilterOtherVisuals": true
+    },
+    "filterConfig": {
+        "filters": [
+            {
+                "name": "4ffc17b6a700ae42bad6",
+                "field": {
+                    "Measure": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "Metrics"
+                            }
+                        },
+                        "Property": "# Workspace Accesses"
+                    }
+                },
+                "type": "Advanced"
+            }
+        ]
     }
 }

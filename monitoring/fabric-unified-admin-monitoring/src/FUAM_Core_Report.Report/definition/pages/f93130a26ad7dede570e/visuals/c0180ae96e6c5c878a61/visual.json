@@ -1,13 +1,13 @@
 {
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
-    "name": "db21560cbd0bc3370d80",
+    "name": "c0180ae96e6c5c878a61",
     "position": {
-        "x": 358.76075731497417,
-        "y": 474.93975903614455,
-        "z": 58000,
-        "height": 39.96557659208261,
-        "width": 66.91910499139415,
-        "tabOrder": 57000
+        "x": 120.39374979435176,
+        "y": 775.5602878601954,
+        "z": 64006,
+        "height": 53.333333333333336,
+        "width": 67.5,
+        "tabOrder": 64006
     },
     "visual": {
         "visualType": "card",
@@ -23,11 +23,11 @@
                                             "Entity": "Metrics"
                                         }
                                     },
-                                    "Property": "Trends Views 14d vs. 30d"
+                                    "Property": "Widely Shared Objects Published to Web"
                                 }
                             },
-                            "queryRef": "Metrics.Trends Views 14d vs. 30d",
-                            "nativeQueryRef": "Trends Views 14d vs. 30d"
+                            "queryRef": "Metrics.Widely Shared Objects Published to Web",
+                            "nativeQueryRef": "Widely Shared Objects Published to Web"
                         }
                     ]
                 }
@@ -42,7 +42,7 @@
                                         "Entity": "Metrics"
                                     }
                                 },
-                                "Property": "Trends Views 14d vs. 30d"
+                                "Property": "Widely Shared Objects Published to Web"
                             }
                         },
                         "direction": "Descending"
@@ -63,7 +63,7 @@
                         "fontSize": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "12D"
+                                    "Value": "15D"
                                 }
                             }
                         },
@@ -184,7 +184,7 @@
                         "text": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "'Trend'"
+                                    "Value": "'Published to Web'"
                                 }
                             }
                         }
@@ -197,7 +197,7 @@
     "filterConfig": {
         "filters": [
             {
-                "name": "77d8e60610bc7a2d1073",
+                "name": "2943fc6b82488a424020",
                 "field": {
                     "Column": {
                         "Expression": {
@@ -243,6 +243,122 @@
                                             }
                                         ]
                                     ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "howCreated": "User"
+            },
+            {
+                "name": "44a8ccf9b58dd0f7cbc5",
+                "field": {
+                    "Measure": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "Metrics"
+                            }
+                        },
+                        "Property": "Widely Shared Objects Published to Web"
+                    }
+                },
+                "type": "Advanced"
+            },
+            {
+                "name": "fc1ad287704f0beb1838",
+                "field": {
+                    "Column": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "widelyshared_publishtoweb"
+                            }
+                        },
+                        "Property": "TransferDateTime"
+                    }
+                },
+                "type": "TopN",
+                "filter": {
+                    "Version": 2,
+                    "From": [
+                        {
+                            "Name": "subquery",
+                            "Expression": {
+                                "Subquery": {
+                                    "Query": {
+                                        "Version": 2,
+                                        "From": [
+                                            {
+                                                "Name": "w",
+                                                "Entity": "widelyshared_publishtoweb",
+                                                "Type": 0
+                                            }
+                                        ],
+                                        "Select": [
+                                            {
+                                                "Column": {
+                                                    "Expression": {
+                                                        "SourceRef": {
+                                                            "Source": "w"
+                                                        }
+                                                    },
+                                                    "Property": "TransferDateTime"
+                                                },
+                                                "Name": "field"
+                                            }
+                                        ],
+                                        "OrderBy": [
+                                            {
+                                                "Direction": 2,
+                                                "Expression": {
+                                                    "Aggregation": {
+                                                        "Expression": {
+                                                            "Column": {
+                                                                "Expression": {
+                                                                    "SourceRef": {
+                                                                        "Source": "w"
+                                                                    }
+                                                                },
+                                                                "Property": "TransferDateTime"
+                                                            }
+                                                        },
+                                                        "Function": 4
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "Top": 1
+                                    }
+                                }
+                            },
+                            "Type": 2
+                        },
+                        {
+                            "Name": "w",
+                            "Entity": "widelyshared_publishtoweb",
+                            "Type": 0
+                        }
+                    ],
+                    "Where": [
+                        {
+                            "Condition": {
+                                "In": {
+                                    "Expressions": [
+                                        {
+                                            "Column": {
+                                                "Expression": {
+                                                    "SourceRef": {
+                                                        "Source": "w"
+                                                    }
+                                                },
+                                                "Property": "TransferDateTime"
+                                            }
+                                        }
+                                    ],
+                                    "Table": {
+                                        "SourceRef": {
+                                            "Source": "subquery"
+                                        }
+                                    }
                                 }
                             }
                         }

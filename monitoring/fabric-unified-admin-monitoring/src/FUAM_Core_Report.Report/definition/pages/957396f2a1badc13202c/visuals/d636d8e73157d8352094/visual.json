@@ -2,11 +2,11 @@
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
     "name": "d636d8e73157d8352094",
     "position": {
-        "x": 1588.3993115318417,
-        "y": 171.94492254733217,
+        "x": 1588.5247850378412,
+        "y": 158.8524785037841,
         "z": 6000,
-        "height": 475.8691910499139,
-        "width": 311.35972461273667,
+        "height": 549.1365851725641,
+        "width": 310.85786741688787,
         "tabOrder": 4000
     },
     "visual": {
@@ -38,14 +38,37 @@
                             {
                                 "textRuns": [
                                     {
-                                        "value": "In this step, take a look on the table."
+                                        "value": "In this step, review the table.",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
+                                        }
                                     }
                                 ]
                             },
                             {
                                 "textRuns": [
                                     {
-                                        "value": "Red marked items are items which have a 'bad-actor' behavior in the last 14 days."
+                                        "value": " Items marked in red indicate a ",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
+                                        }
+                                    },
+                                    {
+                                        "value": "“bad-actor”",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontStyle": "italic",
+                                            "fontSize": "14px"
+                                        }
+                                    },
+                                    {
+                                        "value": " behavior within the last 14 days.",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
+                                        }
                                     }
                                 ]
                             },
@@ -62,7 +85,7 @@
                                         "value": "Daily CU vs 14d Avg CU",
                                         "textStyle": {
                                             "fontWeight": "bold",
-                                            "fontSize": "11pt"
+                                            "fontSize": "12pt"
                                         }
                                     }
                                 ]
@@ -70,9 +93,10 @@
                             {
                                 "textRuns": [
                                     {
-                                        "value": "This metric matches the total daily Average CU with the daily average CU for the last 14 days of the given item.",
+                                        "value": "This metric compares the item’s total daily average CU with its 14‑day average CU.",
                                         "textStyle": {
-                                            "fontSize": "13.3333px"
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
                                         }
                                     }
                                 ]
@@ -80,7 +104,18 @@
                             {
                                 "textRuns": [
                                     {
-                                        "value": "FUAM uses it to visualize whenever the item is using more CU in the last 14 days as in its entire lifecycle."
+                                        "value": " FUAM uses it to highlight when an item has consumed more CU in the last 14 days than across its entire lifecycle.",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "textRuns": [
+                                    {
+                                        "value": ""
                                     }
                                 ]
                             },
@@ -97,7 +132,7 @@
                                         "value": "Outlier Factor",
                                         "textStyle": {
                                             "fontWeight": "bold",
-                                            "fontSize": "11pt"
+                                            "fontSize": "12pt"
                                         }
                                     }
                                 ]
@@ -105,21 +140,48 @@
                             {
                                 "textRuns": [
                                     {
-                                        "value": "Every F-SKU and every workload has its own character. The Total CU and the percentage of the capacity utilization, are key metrics, however it doesn't represents if an item is an outlier."
+                                        "value": "Every F‑SKU and every workload has its own characteristics.",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
+                                        }
                                     }
                                 ]
                             },
                             {
                                 "textRuns": [
                                     {
-                                        "value": "For that reason, FUAM calculates a Outlier Factor based on standard variance."
+                                        "value": "Total CU and the percentage of capacity utilization are important metrics; however, they do not necessarily indicate whether an item is an outlier.",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
+                                        }
                                     }
                                 ]
                             },
                             {
                                 "textRuns": [
                                     {
-                                        "value": ""
+                                        "value": "To address this, FUAM calculates an ",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
+                                        }
+                                    },
+                                    {
+                                        "value": "Outlier Factor",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontStyle": "italic",
+                                            "fontSize": "14px"
+                                        }
+                                    },
+                                    {
+                                        "value": " based on standard variance.",
+                                        "textStyle": {
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
+                                        }
                                     }
                                 ]
                             },
@@ -128,7 +190,8 @@
                                     {
                                         "value": "The more filled the dice symbol is, the higher the outlier factor.",
                                         "textStyle": {
-                                            "fontSize": "13.3333px"
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
                                         }
                                     }
                                 ]
@@ -136,10 +199,18 @@
                             {
                                 "textRuns": [
                                     {
-                                        "value": "We recommend analyzing such items in the next steps.",
+                                        "value": " We recommend analyzing such items in the next steps.",
                                         "textStyle": {
-                                            "fontSize": "13.3333px"
+                                            "fontFamily": "Segoe UI",
+                                            "fontSize": "14px"
                                         }
+                                    }
+                                ]
+                            },
+                            {
+                                "textRuns": [
+                                    {
+                                        "value": ""
                                     }
                                 ]
                             },

@@ -2681,6 +2681,16 @@ table Metrics
 
 		annotation PBI_FormatHint = {"isCustom":true}
 
+	measure 'Widely Shared Organisation Links' = DISTINCTCOUNT(widelyshared_organization_links[ItemId])
+		formatString: #,0
+		displayFolder: Widely Shared Objects
+		lineageTag: 7a696086-fcfe-4fe4-9c88-ee4964b00b27
+
+	measure 'Widely Shared Objects Published to Web' = DISTINCTCOUNT(widelyshared_publishtoweb[ItemId])
+		formatString: #,0
+		displayFolder: Widely Shared Objects
+		lineageTag: e4f420a6-f48d-4e76-8465-e1dd1f4a33ad
+
 	column Value
 		isHidden
 		lineageTag: 6e177236-9abc-4961-ae93-da64da18826c

@@ -139,7 +139,7 @@
                         "type": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "'PageNavigation'"
+                                    "Value": "'WebUrl'"
                                 }
                             }
                         },
@@ -147,6 +147,13 @@
                             "expr": {
                                 "Literal": {
                                     "Value": "'0b29bd16187850bca883'"
+                                }
+                            }
+                        },
+                        "webUrl": {
+                            "expr": {
+                                "Literal": {
+                                    "Value": "'https://github.com/microsoft/fabric-toolbox/blob/main/monitoring/fabric-unified-admin-monitoring/media/documentation/FUAM_Core_Report.md'"
                                 }
                             }
                         }

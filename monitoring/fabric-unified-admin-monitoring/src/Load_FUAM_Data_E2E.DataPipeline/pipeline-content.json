@@ -29,6 +29,18 @@
                         "display_data": {
                             "value": "@pipeline().parameters.display_data",
                             "type": "Expression"
+                        },
+                        "anonymize_tables": {
+                            "value": "@pipeline().parameters.activity_anonymize_tables",
+                            "type": "Expression"
+                        },
+                        "anonymize_files": {
+                            "value": "@pipeline().parameters.activity_anonymize_files",
+                            "type": "Expression"
+                        },
+                        "anonymize_after_days": {
+                            "value": "@pipeline().parameters.activity_anonymize_after_days",
+                            "type": "Expression"
                         }
                     }
                 }
@@ -398,32 +410,6 @@
                 }
             },
             {
-                "name": "Run Optimization Module",
-                "type": "TridentNotebook",
-                "state": "Inactive",
-                "onInactiveMarkAs": "Succeeded",
-                "dependsOn": [
-                    {
-                        "activity": "Load_Capacity_Metrics",
-                        "dependencyConditions": [
-                            "Succeeded"
-                        ]
-                    }
-                ],
-                "policy": {
-                    "timeout": "0.12:00:00",
-                    "retry": 0,
-                    "retryIntervalInSeconds": 30,
-                    "secureOutput": false,
-                    "secureInput": false
-                },
-                "typeProperties": {
-                    "notebookId": "fea163ba-846b-4d6e-99f7-2cecda31f7ec",
-                    "workspaceId": "88c8d9fa-2c24-3fad-8f46-b36431c7ba1d",
-                    "sessionTag": "fuam"
-                }
-            },
-            {
                 "name": "Load_WidelyShared_OrganizationLinks",
                 "type": "ExecutePipeline",
                 "dependsOn": [
@@ -491,15 +477,15 @@
             },
             "metric_days_in_scope": {
                 "type": "int",
-                "defaultValue": 10
+                "defaultValue": 5
             },
             "metric_workspace": {
                 "type": "string",
-                "defaultValue": "d0182223-a6a9-4aa1-bf5c-24d8ee582b9d"
+                "defaultValue": "71ff9c82-46d8-42e7-b602-7a08227faad3"
             },
             "metric_dataset": {
                 "type": "string",
-                "defaultValue": "Fabric Capacity Metrics"
+                "defaultValue": "87b11cea-fa44-4d0b-a9f8-a34dec691739"
             },
             "activity_days_in_scope": {
                 "type": "int",
@@ -510,16 +496,36 @@
                 "defaultValue": false
             },
             "optional_keyvault_name": {
-                "type": "string"
+                "type": "string",
+                "defaultValue": "fuamkv"
             },
             "optional_keyvault_sp_tenantId_secret_name": {
-                "type": "string"
+                "type": "string",
+                "defaultValue": "fuam-sp-client"
             },
             "optional_keyvault_sp_clientId_secret_name": {
-                "type": "string"
+                "type": "string",
+                "defaultValue": "fuam-sp-tenant"
             },
             "optional_keyvault_sp_secret_secret_name": {
-                "type": "string"
+                "type": "string",
+                "defaultValue": "fuam-sp-secret"
+            },
+            "optional_keyvault_sp_enterprise_object_id_secret_name": {
+                "type": "string",
+                "defaultValue": "fuam-sp-enterprise-app-object-id"
+            },
+            "activity_anonymize_tables": {
+                "type": "bool",
+                "defaultValue": false
+            },
+            "activity_anonymize_files": {
+                "type": "bool",
+                "defaultValue": false
+            },
+            "activity_anonymize_after_days": {
+                "type": "int",
+                "defaultValue": 0
             }
         }
     }

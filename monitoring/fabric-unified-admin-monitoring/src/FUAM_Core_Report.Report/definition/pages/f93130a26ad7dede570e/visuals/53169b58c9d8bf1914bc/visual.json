@@ -2,8 +2,8 @@
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
     "name": "53169b58c9d8bf1914bc",
     "position": {
-        "x": 518.5571489186317,
-        "y": 138.48071845661167,
+        "x": 519.1175692913413,
+        "y": 142.3094727363547,
         "z": 53000,
         "height": 22.983870967741936,
         "width": 35.08064516129032,
@@ -139,7 +139,7 @@
                         "type": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "'PageNavigation'"
+                                    "Value": "'WebUrl'"
                                 }
                             }
                         },
@@ -147,6 +147,13 @@
                             "expr": {
                                 "Literal": {
                                     "Value": "'0b29bd16187850bca883'"
+                                }
+                            }
+                        },
+                        "webUrl": {
+                            "expr": {
+                                "Literal": {
+                                    "Value": "'https://github.com/microsoft/fabric-toolbox/blob/main/monitoring/fabric-unified-admin-monitoring/media/documentation/FUAM_Core_Report.md'"
                                 }
                             }
                         }

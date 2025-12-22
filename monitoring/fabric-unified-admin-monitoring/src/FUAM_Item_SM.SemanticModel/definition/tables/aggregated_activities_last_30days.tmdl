@@ -4,14 +4,18 @@ table aggregated_activities_last_30days
 
 	column CreationDate
 		dataType: dateTime
-		formatString: General Date
+		formatString: yyyy-mm-dd
 		sourceProviderType: date
 		lineageTag: 08d71231-0180-4126-87db-94eb70a7c6f0
 		sourceLineageTag: CreationDate
 		summarizeBy: none
 		sourceColumn: CreationDate
 
+		changedProperty = FormatString
+
 		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isCustom":true}
 
 	column Experience
 		dataType: string

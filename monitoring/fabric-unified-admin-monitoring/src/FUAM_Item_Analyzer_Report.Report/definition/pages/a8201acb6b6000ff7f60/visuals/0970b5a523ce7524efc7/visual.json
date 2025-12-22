@@ -2,36 +2,18 @@
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
     "name": "0970b5a523ce7524efc7",
     "position": {
-        "x": 607.7777777777777,
-        "y": 1551.111111111111,
+        "x": 612.0689655172414,
+        "y": 1548.2758620689656,
         "z": 23000,
-        "height": 632.2222222222222,
-        "width": 534.4444444444445,
+        "height": 631.0344827586207,
+        "width": 532.7586206896552,
         "tabOrder": 24000
     },
     "visual": {
-        "visualType": "treemap",
+        "visualType": "ribbonChart",
         "query": {
             "queryState": {
-                "Details": {
-                    "projections": [
-                        {
-                            "field": {
-                                "Column": {
-                                    "Expression": {
-                                        "SourceRef": {
-                                            "Entity": "semantic_model_vertipaq_tables"
-                                        }
-                                    },
-                                    "Property": "Name"
-                                }
-                            },
-                            "queryRef": "semantic_model_vertipaq_tables.Name",
-                            "nativeQueryRef": "Name"
-                        }
-                    ]
-                },
-                "Group": {
+                "Category": {
                     "projections": [
                         {
                             "field": {
@@ -47,6 +29,24 @@
                             "queryRef": "semantic_model_analyzer_runs.RunName",
                             "nativeQueryRef": "RunName",
                             "active": true
+                        }
+                    ]
+                },
+                "Series": {
+                    "projections": [
+                        {
+                            "field": {
+                                "Column": {
+                                    "Expression": {
+                                        "SourceRef": {
+                                            "Entity": "semantic_model_vertipaq_tables"
+                                        }
+                                    },
+                                    "Property": "Name"
+                                }
+                            },
+                            "queryRef": "semantic_model_vertipaq_tables.Name",
+                            "nativeQueryRef": "Name"
                         }
                     ]
                 },
@@ -69,7 +69,7 @@
                         }
                     ]
                 },
-                "Values": {
+                "Y": {
                     "projections": [
                         {
                             "field": {
@@ -92,22 +92,7 @@
         "objects": {
             "layout": [
                 {
-                    "properties": {
-                        "innerPadding": {
-                            "expr": {
-                                "Literal": {
-                                    "Value": "5D"
-                                }
-                            }
-                        },
-                        "tilingMethod": {
-                            "expr": {
-                                "Literal": {
-                                    "Value": "'alternating'"
-                                }
-                            }
-                        }
-                    }
+                    "properties": {}
                 }
             ],
             "labels": [
@@ -144,7 +129,7 @@
                         "text": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "'VertiPaq | Table Metrics | Total Size & more'"
+                                    "Value": "'Semantic Model Sizes & Differences over Runs'"
                                 }
                             }
                         }
@@ -182,35 +167,7 @@
     "filterConfig": {
         "filters": [
             {
-                "name": "6135f014818f4aa13a5f",
-                "field": {
-                    "Measure": {
-                        "Expression": {
-                            "SourceRef": {
-                                "Entity": "Metrics"
-                            }
-                        },
-                        "Property": "Selected Unit Name"
-                    }
-                },
-                "type": "Advanced"
-            },
-            {
-                "name": "795491682427971535fd",
-                "field": {
-                    "Measure": {
-                        "Expression": {
-                            "SourceRef": {
-                                "Entity": "Metrics"
-                            }
-                        },
-                        "Property": "Total Size (table)"
-                    }
-                },
-                "type": "Advanced"
-            },
-            {
-                "name": "9bdd98a79c29c5ef1ffb",
+                "name": "723e8fbc67cb5e54b2c1",
                 "field": {
                     "Column": {
                         "Expression": {
@@ -224,7 +181,7 @@
                 "type": "Categorical"
             },
             {
-                "name": "9b9cd70c65e3e50977af",
+                "name": "178450477644dfcf3cb2",
                 "field": {
                     "Column": {
                         "Expression": {
@@ -236,6 +193,34 @@
                     }
                 },
                 "type": "Categorical"
+            },
+            {
+                "name": "843388cdcd84a5cfea93",
+                "field": {
+                    "Measure": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "Metrics"
+                            }
+                        },
+                        "Property": "Selected Unit Name"
+                    }
+                },
+                "type": "Advanced"
+            },
+            {
+                "name": "6b3265ffe3e8c2201f45",
+                "field": {
+                    "Measure": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "Metrics"
+                            }
+                        },
+                        "Property": "Total Size (table)"
+                    }
+                },
+                "type": "Advanced"
             }
         ]
     }

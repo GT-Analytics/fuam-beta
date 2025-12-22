@@ -1,13 +1,13 @@
 {
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
-    "name": "02a43a135835a003d0f7",
+    "name": "7943ca7cf95bd2d5a980",
     "position": {
-        "x": 127.65957446808511,
-        "y": 689.3617021276597,
-        "z": 5000,
-        "height": 60.63829787234043,
-        "width": 117.55319148936171,
-        "tabOrder": 2000
+        "x": 211.66666666666669,
+        "y": 632.5,
+        "z": 64003,
+        "height": 51.66666666666667,
+        "width": 67.5,
+        "tabOrder": 64003
     },
     "visual": {
         "visualType": "card",
@@ -23,12 +23,11 @@
                                             "Entity": "Metrics"
                                         }
                                     },
-                                    "Property": "# Different Datasource Types"
+                                    "Property": "# Datasource Instances"
                                 }
                             },
-                            "queryRef": "Metrics.# Different Datasource Types",
-                            "nativeQueryRef": "Datasource Types",
-                            "displayName": "Datasource Types"
+                            "queryRef": "Metrics.# Datasource Instances",
+                            "nativeQueryRef": "# Datasource Instances"
                         }
                     ]
                 }
@@ -43,7 +42,7 @@
                                         "Entity": "Metrics"
                                     }
                                 },
-                                "Property": "# Different Datasource Types"
+                                "Property": "# Datasource Instances"
                             }
                         },
                         "direction": "Descending"
@@ -64,7 +63,7 @@
                         "fontSize": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "18D"
+                                    "Value": "15D"
                                 }
                             }
                         },
@@ -131,14 +130,14 @@
                         "radius": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "8D"
+                                    "Value": "5D"
                                 }
                             }
                         },
                         "show": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "true"
+                                    "Value": "false"
                                 }
                             }
                         }
@@ -151,7 +150,7 @@
                         "show": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "true"
+                                    "Value": "false"
                                 }
                             }
                         }
@@ -185,7 +184,7 @@
                         "text": {
                             "expr": {
                                 "Literal": {
-                                    "Value": "'Data Source Kinds'"
+                                    "Value": "'Connections'"
                                 }
                             }
                         }
@@ -194,5 +193,23 @@
             ]
         },
         "drillFilterOtherVisuals": true
+    },
+    "filterConfig": {
+        "filters": [
+            {
+                "name": "ff32d445df807eea2d63",
+                "field": {
+                    "Measure": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "Metrics"
+                            }
+                        },
+                        "Property": "# Datasource Instances"
+                    }
+                },
+                "type": "Advanced"
+            }
+        ]
     }
 }

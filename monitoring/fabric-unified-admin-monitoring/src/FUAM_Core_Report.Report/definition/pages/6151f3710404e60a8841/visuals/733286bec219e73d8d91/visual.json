@@ -546,7 +546,46 @@
                         "Property": "displayName"
                     }
                 },
-                "type": "Categorical"
+                "type": "Categorical",
+                "filter": {
+                    "Version": 2,
+                    "From": [
+                        {
+                            "Name": "c",
+                            "Entity": "capacities",
+                            "Type": 0
+                        }
+                    ],
+                    "Where": [
+                        {
+                            "Condition": {
+                                "In": {
+                                    "Expressions": [
+                                        {
+                                            "Column": {
+                                                "Expression": {
+                                                    "SourceRef": {
+                                                        "Source": "c"
+                                                    }
+                                                },
+                                                "Property": "displayName"
+                                            }
+                                        }
+                                    ],
+                                    "Values": [
+                                        [
+                                            {
+                                                "Literal": {
+                                                    "Value": "'destfabric'"
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "name": "a4b126eaa8be0ff93e27",

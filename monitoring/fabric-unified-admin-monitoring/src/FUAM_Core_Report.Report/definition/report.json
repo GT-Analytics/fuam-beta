@@ -76,7 +76,7 @@
                     "expanded": {
                         "expr": {
                             "Literal": {
-                                "Value": "true"
+                                "Value": "false"
                             }
                         }
                     }
@@ -106,28 +106,8 @@
             "type": "RegisteredResources",
             "items": [
                 {
-                    "name": "1_tenant38198715604623334.png",
-                    "path": "1_tenant38198715604623334.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "2_capacity19282015850235545.png",
-                    "path": "2_capacity19282015850235545.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "4_workspace393748684685004.png",
-                    "path": "4_workspace393748684685004.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "5_item14594681741530136.png",
-                    "path": "5_item14594681741530136.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "Accessible_Tidal996295395921009.json",
-                    "path": "Accessible_Tidal996295395921009.json",
+                    "name": "fuam_core_bg2259959316290312.png",
+                    "path": "fuam_core_bg2259959316290312.png",
                     "type": "Image"
                 },
                 {
@@ -136,28 +116,13 @@
                     "type": "Image"
                 },
                 {
-                    "name": "fuam_core_bg8380016969891434.png",
-                    "path": "fuam_core_bg8380016969891434.png",
+                    "name": "fuam_core_bg31098825926264084.png",
+                    "path": "fuam_core_bg31098825926264084.png",
                     "type": "Image"
                 },
                 {
-                    "name": "fuam_core_bg5774178042223121.png",
-                    "path": "fuam_core_bg5774178042223121.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg5333965023756615.png",
-                    "path": "fuam_core_bg5333965023756615.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg5654662828196442.png",
-                    "path": "fuam_core_bg5654662828196442.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg12546988888689192.png",
-                    "path": "fuam_core_bg12546988888689192.png",
+                    "name": "fuam_core_bg36159648616070583.png",
+                    "path": "fuam_core_bg36159648616070583.png",
                     "type": "Image"
                 },
                 {
@@ -171,53 +136,18 @@
                     "type": "Image"
                 },
                 {
-                    "name": "fuam_core_bg21213522325164114.png",
-                    "path": "fuam_core_bg21213522325164114.png",
+                    "name": "fuam_core_bg45381215687940335.png",
+                    "path": "fuam_core_bg45381215687940335.png",
                     "type": "Image"
                 },
                 {
-                    "name": "fuam_core_bg6886406663138359.png",
-                    "path": "fuam_core_bg6886406663138359.png",
+                    "name": "fuam_core_bg5333965023756615.png",
+                    "path": "fuam_core_bg5333965023756615.png",
                     "type": "Image"
                 },
                 {
-                    "name": "fuam_core_bg06474931060420364.png",
-                    "path": "fuam_core_bg06474931060420364.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg7066949967095172.png",
-                    "path": "fuam_core_bg7066949967095172.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg835477845272253.png",
-                    "path": "fuam_core_bg835477845272253.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg6352683900794817.png",
-                    "path": "fuam_core_bg6352683900794817.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg6992324430794821.png",
-                    "path": "fuam_core_bg6992324430794821.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg034818856992839486.png",
-                    "path": "fuam_core_bg034818856992839486.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg7823942798404996.png",
-                    "path": "fuam_core_bg7823942798404996.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg2259959316290312.png",
-                    "path": "fuam_core_bg2259959316290312.png",
+                    "name": "fuam_core_bg5654662828196442.png",
+                    "path": "fuam_core_bg5654662828196442.png",
                     "type": "Image"
                 },
                 {
@@ -226,23 +156,48 @@
                     "type": "Image"
                 },
                 {
-                    "name": "fuam_core_bg9463147847857415.png",
-                    "path": "fuam_core_bg9463147847857415.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg17197600647026445.png",
-                    "path": "fuam_core_bg17197600647026445.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg31098825926264084.png",
-                    "path": "fuam_core_bg31098825926264084.png",
-                    "type": "Image"
-                },
-                {
                     "name": "fuam_core_bg5675179563835516.png",
                     "path": "fuam_core_bg5675179563835516.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg5774178042223121.png",
+                    "path": "fuam_core_bg5774178042223121.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg6352683900794817.png",
+                    "path": "fuam_core_bg6352683900794817.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg6886406663138359.png",
+                    "path": "fuam_core_bg6886406663138359.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg6992324430794821.png",
+                    "path": "fuam_core_bg6992324430794821.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg7066949967095172.png",
+                    "path": "fuam_core_bg7066949967095172.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg7823942798404996.png",
+                    "path": "fuam_core_bg7823942798404996.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg835477845272253.png",
+                    "path": "fuam_core_bg835477845272253.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg8380016969891434.png",
+                    "path": "fuam_core_bg8380016969891434.png",
                     "type": "Image"
                 },
                 {
@@ -251,23 +206,8 @@
                     "type": "Image"
                 },
                 {
-                    "name": "fuam_core_bg45381215687940335.png",
-                    "path": "fuam_core_bg45381215687940335.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg1682800298569792.png",
-                    "path": "fuam_core_bg1682800298569792.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg36159648616070583.png",
-                    "path": "fuam_core_bg36159648616070583.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg13391927613292876.png",
-                    "path": "fuam_core_bg13391927613292876.png",
+                    "name": "fuam_core_bg9463147847857415.png",
+                    "path": "fuam_core_bg9463147847857415.png",
                     "type": "Image"
                 },
                 {
@@ -281,6 +221,21 @@
                     "type": "Image"
                 },
                 {
+                    "name": "fuam_core_home_bg5982635581759405.png",
+                    "path": "fuam_core_home_bg5982635581759405.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_om_bg9631300318863146.png",
+                    "path": "fuam_core_om_bg9631300318863146.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_refreshables_bg792285906577183.png",
+                    "path": "fuam_core_refreshables_bg792285906577183.png",
+                    "type": "Image"
+                },
+                {
                     "name": "fuam_core_ws_bg2937358420083427.png",
                     "path": "fuam_core_ws_bg2937358420083427.png",
                     "type": "Image"
@@ -291,8 +246,43 @@
                     "type": "Image"
                 },
                 {
-                    "name": "fuam_core_refreshables_bg792285906577183.png",
-                    "path": "fuam_core_refreshables_bg792285906577183.png",
+                    "name": "icon_home4461773375624677.png",
+                    "path": "icon_home4461773375624677.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg21213522325164114.png",
+                    "path": "fuam_core_bg21213522325164114.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg17197600647026445.png",
+                    "path": "fuam_core_bg17197600647026445.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg1682800298569792.png",
+                    "path": "fuam_core_bg1682800298569792.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg13391927613292876.png",
+                    "path": "fuam_core_bg13391927613292876.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg12546988888689192.png",
+                    "path": "fuam_core_bg12546988888689192.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg06474931060420364.png",
+                    "path": "fuam_core_bg06474931060420364.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg034818856992839486.png",
+                    "path": "fuam_core_bg034818856992839486.png",
                     "type": "Image"
                 },
                 {
@@ -301,18 +291,28 @@
                     "type": "Image"
                 },
                 {
-                    "name": "icon_home4461773375624677.png",
-                    "path": "icon_home4461773375624677.png",
+                    "name": "Accessible_Tidal996295395921009.json",
+                    "path": "Accessible_Tidal996295395921009.json",
                     "type": "Image"
                 },
                 {
-                    "name": "fuam_core_home_bg2475922582136204.png",
-                    "path": "fuam_core_home_bg2475922582136204.png",
+                    "name": "5_item14594681741530136.png",
+                    "path": "5_item14594681741530136.png",
                     "type": "Image"
                 },
                 {
-                    "name": "fuam_core_om_bg9631300318863146.png",
-                    "path": "fuam_core_om_bg9631300318863146.png",
+                    "name": "4_workspace393748684685004.png",
+                    "path": "4_workspace393748684685004.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "2_capacity19282015850235545.png",
+                    "path": "2_capacity19282015850235545.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "1_tenant38198715604623334.png",
+                    "path": "1_tenant38198715604623334.png",
                     "type": "Image"
                 }
             ]

@@ -54,6 +54,71 @@
                 },
                 "type": "Categorical",
                 "howCreated": "User"
+            },
+            {
+                "name": "284bc4c7220a255d074c",
+                "ordinal": 3,
+                "field": {
+                    "Column": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "datasource_instances"
+                            }
+                        },
+                        "Property": "FUAM_ConnectionString"
+                    }
+                },
+                "type": "Categorical",
+                "howCreated": "User"
+            },
+            {
+                "name": "d95b30f0545942a137dd",
+                "ordinal": 4,
+                "field": {
+                    "Column": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "workspaces"
+                            }
+                        },
+                        "Property": "WorkspaceId"
+                    }
+                },
+                "type": "Categorical",
+                "howCreated": "User"
+            },
+            {
+                "name": "ab91908eb12a6c6b2558",
+                "ordinal": 5,
+                "field": {
+                    "Column": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "workspaces"
+                            }
+                        },
+                        "Property": "WorkspaceName"
+                    }
+                },
+                "type": "Categorical",
+                "howCreated": "User"
+            },
+            {
+                "name": "77598fdeb1244d9dd190",
+                "displayName": "Capacity Name",
+                "ordinal": 6,
+                "field": {
+                    "Column": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "capacities"
+                            }
+                        },
+                        "Property": "displayName"
+                    }
+                },
+                "type": "Categorical",
+                "howCreated": "User"
             }
         ],
         "filterSortOrder": "Custom"
@@ -125,5 +190,12 @@
                 }
             }
         ]
-    }
+    },
+    "visualInteractions": [
+        {
+            "source": "9fb84da7931ab9ff9512",
+            "target": "057f7156daf00d8e7272",
+            "type": "DataFilter"
+        }
+    ]
 }

@@ -172,10 +172,6 @@
         "fuam_id": "0c455dc0-51fe-33b8-8b36-401a002dfab4"
     },
     {
-        "name": "00_Run_Optimization_Module_for_SM_Unit.Notebook",
-        "fuam_id": "03538a7c-2199-3269-abfe-6e9d27c23476"
-    },
-    {
         "name": "Load_FUAM_Data_E2E.DataPipeline",
         "fuam_id": "ad02d6fe-ab95-3fd4-ab53-c010c0a41921"
     },

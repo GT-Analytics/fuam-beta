@@ -2,11 +2,11 @@
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
     "name": "ad85a53d60d9df801d35",
     "position": {
-        "x": 238.73905429071803,
-        "y": 90.78809106830121,
+        "x": 180,
+        "y": 78.9439689865499,
         "z": 1000,
-        "height": 72.29422066549911,
-        "width": 119.36952714535902,
+        "height": 72.3076923076923,
+        "width": 120,
         "tabOrder": 6000
     },
     "visual": {
@@ -27,8 +27,8 @@
                                 }
                             },
                             "queryRef": "Metrics.# Datasource Instances",
-                            "nativeQueryRef": "# Connections",
-                            "displayName": "# Connections"
+                            "nativeQueryRef": "# Data Sources",
+                            "displayName": "# Data Sources"
                         }
                     ]
                 }

@@ -2,11 +2,11 @@
     "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
     "name": "94f7d6ee5c8ddf411bec",
     "position": {
-        "x": 26.900175131348508,
-        "y": 90.78809106830121,
+        "x": 23.076923076923077,
+        "y": 78.9439689865499,
         "z": 3000,
-        "height": 70.61295971978984,
-        "width": 200.07005253940454,
+        "height": 70.76923076923077,
+        "width": 141.53846153846155,
         "tabOrder": 0
     },
     "visual": {
@@ -27,7 +27,8 @@
                                 }
                             },
                             "queryRef": "Metrics.# Different Datasource Types",
-                            "nativeQueryRef": "# Different Datasource Types"
+                            "nativeQueryRef": "# Datasource Types",
+                            "displayName": "# Datasource Types"
                         }
                     ]
                 }
@@ -132,5 +133,23 @@
             ]
         },
         "drillFilterOtherVisuals": true
+    },
+    "filterConfig": {
+        "filters": [
+            {
+                "name": "2e1fe17114c899a88c20",
+                "field": {
+                    "Measure": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Entity": "Metrics"
+                            }
+                        },
+                        "Property": "# Different Datasource Types"
+                    }
+                },
+                "type": "Advanced"
+            }
+        ]
     }
 }
