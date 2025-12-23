@@ -77,7 +77,7 @@
                         "type": "RestResource",
                         "typeProperties": {
                             "relativeUrl": {
-                                "value": "@string('groups?$top=1')\n",
+                                "value": "@string('groups?$filter=isOnDedicatedCapacity eq true&$top=1')\n",
                                 "type": "Expression"
                             }
                         },
@@ -223,7 +223,7 @@
                                         "type": "RestResource",
                                         "typeProperties": {
                                             "relativeUrl": {
-                                                "value": "@concat('groups?$top=',variables('limit'),'&$skip=', variables('currentSkip'))",
+                                                "value": "@concat('groups?$filter=isOnDedicatedCapacity eq true&$top=',variables('limit'),'&$skip=', variables('currentSkip'))",
                                                 "type": "Expression"
                                             }
                                         },
