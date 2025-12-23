@@ -4,7 +4,7 @@ for Fabric Unified Admin Monitoring solution accelerator.
 
 --------------------------
 
-## 📦 2025.12.1
+## 📦 2026.1.1
 
 Date: 2025-12-23
 
