@@ -59,7 +59,7 @@
                             },
                             "queryRef": "workspaces.WorkspaceName",
                             "nativeQueryRef": "WorkspaceName",
-                            "active": true
+                            "active": false
                         }
                     ]
                 },
@@ -279,7 +279,6 @@
                         "queryRefs": [
                             "domains_flatten.MainDomainName"
                         ],
-                        "isCollapsed": true,
                         "identityKeys": [
                             {
                                 "Column": {
@@ -321,32 +320,7 @@
                         "isPinned": true
                     }
                 ],
-                "root": {
-                    "children": [
-                        {
-                            "identityValues": [
-                                {
-                                    "Literal": {
-                                        "Value": "'Finance BI'"
-                                    }
-                                }
-                            ],
-                            "isToggled": true,
-                            "children": [
-                                {
-                                    "identityValues": [
-                                        {
-                                            "Literal": {
-                                                "Value": "'Sub-Finance BI A'"
-                                            }
-                                        }
-                                    ],
-                                    "isToggled": true
-                                }
-                            ]
-                        }
-                    ]
-                }
+                "root": {}
             }
         ],
         "objects": {

@@ -76,7 +76,7 @@
                     "expanded": {
                         "expr": {
                             "Literal": {
-                                "Value": "false"
+                                "Value": "true"
                             }
                         }
                     }
@@ -105,6 +105,71 @@
             "name": "RegisteredResources",
             "type": "RegisteredResources",
             "items": [
+                {
+                    "name": "1_tenant38198715604623334.png",
+                    "path": "1_tenant38198715604623334.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "2_capacity19282015850235545.png",
+                    "path": "2_capacity19282015850235545.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "4_workspace393748684685004.png",
+                    "path": "4_workspace393748684685004.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "5_item14594681741530136.png",
+                    "path": "5_item14594681741530136.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "Accessible_Tidal996295395921009.json",
+                    "path": "Accessible_Tidal996295395921009.json",
+                    "type": "Image"
+                },
+                {
+                    "name": "dom_lvl8848531544471335.png",
+                    "path": "dom_lvl8848531544471335.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg034818856992839486.png",
+                    "path": "fuam_core_bg034818856992839486.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg06474931060420364.png",
+                    "path": "fuam_core_bg06474931060420364.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg12546988888689192.png",
+                    "path": "fuam_core_bg12546988888689192.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg13391927613292876.png",
+                    "path": "fuam_core_bg13391927613292876.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg1682800298569792.png",
+                    "path": "fuam_core_bg1682800298569792.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg17197600647026445.png",
+                    "path": "fuam_core_bg17197600647026445.png",
+                    "type": "Image"
+                },
+                {
+                    "name": "fuam_core_bg21213522325164114.png",
+                    "path": "fuam_core_bg21213522325164114.png",
+                    "type": "Image"
+                },
                 {
                     "name": "fuam_core_bg2259959316290312.png",
                     "path": "fuam_core_bg2259959316290312.png",
@@ -248,71 +313,6 @@
                 {
                     "name": "icon_home4461773375624677.png",
                     "path": "icon_home4461773375624677.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg21213522325164114.png",
-                    "path": "fuam_core_bg21213522325164114.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg17197600647026445.png",
-                    "path": "fuam_core_bg17197600647026445.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg1682800298569792.png",
-                    "path": "fuam_core_bg1682800298569792.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg13391927613292876.png",
-                    "path": "fuam_core_bg13391927613292876.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg12546988888689192.png",
-                    "path": "fuam_core_bg12546988888689192.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg06474931060420364.png",
-                    "path": "fuam_core_bg06474931060420364.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "fuam_core_bg034818856992839486.png",
-                    "path": "fuam_core_bg034818856992839486.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "dom_lvl8848531544471335.png",
-                    "path": "dom_lvl8848531544471335.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "Accessible_Tidal996295395921009.json",
-                    "path": "Accessible_Tidal996295395921009.json",
-                    "type": "Image"
-                },
-                {
-                    "name": "5_item14594681741530136.png",
-                    "path": "5_item14594681741530136.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "4_workspace393748684685004.png",
-                    "path": "4_workspace393748684685004.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "2_capacity19282015850235545.png",
-                    "path": "2_capacity19282015850235545.png",
-                    "type": "Image"
-                },
-                {
-                    "name": "1_tenant38198715604623334.png",
-                    "path": "1_tenant38198715604623334.png",
                     "type": "Image"
                 }
             ]

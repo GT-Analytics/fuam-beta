@@ -77,7 +77,7 @@
                             },
                             "queryRef": "workspaces.WorkspaceName",
                             "nativeQueryRef": "WorkspaceName",
-                            "active": false
+                            "active": true
                         }
                     ]
                 },
@@ -175,17 +175,19 @@
                                     }
                                 }
                             ],
-                            "isToggled": true
-                        },
-                        {
-                            "identityValues": [
+                            "isToggled": true,
+                            "children": [
                                 {
-                                    "Literal": {
-                                        "Value": "'App'"
-                                    }
+                                    "identityValues": [
+                                        {
+                                            "Literal": {
+                                                "Value": "'martink@MngEnvMCAP059919.onmicrosoft.com'"
+                                            }
+                                        }
+                                    ],
+                                    "isToggled": true
                                 }
-                            ],
-                            "isToggled": true
+                            ]
                         }
                     ]
                 }

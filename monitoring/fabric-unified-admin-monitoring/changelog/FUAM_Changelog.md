@@ -6,7 +6,7 @@ for Fabric Unified Admin Monitoring solution accelerator.
 
 ## 📦 2025.12.1
 
-Date: 2025-12-22
+Date: 2025-12-23
 
 
 ### 📈 Enhancements
@@ -21,14 +21,14 @@ Date: 2025-12-22
 - **Report Updates**:
     - New navigation from Overview Page to different topics
     - New Analytical Pathways: 
-        - Unused workspaces with single click communication to the owners
+        - Unused workspaces with single click communication to the workspace owners
         - Access Management Report
     - New report pages:
         - Data Sources (for Semantic Models)
         - Widely Share Objects
     - Update to Item_Analyzer Report
 - **Others**: 
-    - Anonymization of Activities
+    - Anonymization of Activities (Can be parameterized in the main pipeline)
     - Automatic Deployment into folders
 
 Best Regards!
