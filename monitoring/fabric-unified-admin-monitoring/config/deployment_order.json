@@ -214,5 +214,13 @@
     {
         "name": "FUAM_Gateway_Monitoring_From_Files_Report.Report",
         "fuam_id": "3695cd0e-da7e-3b40-ad28-5bd1bcd33eb6"
+    },
+    {
+        "name": "01_Tags_Unit.Notebook",
+        "fuam_id": "a2948d7f-30bf-3653-8aad-266b643951d5"
+    },
+    {
+        "name": "Load_Tags_E2E.DataPipeline",
+        "fuam_id": "df3d796d-f02d-3baa-98ed-17ae09708fb2"
     }
 ]

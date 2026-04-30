@@ -464,6 +464,31 @@
                         }
                     }
                 }
+            },
+            {
+                "name": "Load_Tag_E2E",
+                "type": "ExecutePipeline",
+                "dependsOn": [
+                    {
+                        "activity": "Load_WidelyShared_PublishedToWeb",
+                        "dependencyConditions": [
+                            "Completed"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "secureInput": false
+                },
+                "typeProperties": {
+                    "pipeline": {
+                        "referenceName": "df3d796d-f02d-3baa-98ed-17ae09708fb2",
+                        "type": "PipelineReference"
+                    },
+                    "waitOnCompletion": true,
+                    "parameters": {
+                        "display_data": "@pipeline().parameters.display_data"
+                    }
+                }
             }
         ],
         "parameters": {
@@ -481,11 +506,11 @@
             },
             "metric_workspace": {
                 "type": "string",
-                "defaultValue": "71ff9c82-46d8-42e7-b602-7a08227faad3"
+                "defaultValue": "f41928d0-580d-4178-90ee-9d7cde90e602"
             },
             "metric_dataset": {
                 "type": "string",
-                "defaultValue": "87b11cea-fa44-4d0b-a9f8-a34dec691739"
+                "defaultValue": "34d3843c-ac57-4fd6-8c79-d278be9fcfa0"
             },
             "activity_days_in_scope": {
                 "type": "int",
